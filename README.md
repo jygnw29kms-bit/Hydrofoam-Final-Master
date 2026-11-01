@@ -4,8 +4,8 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v17_FINAL_WEIGHT  
-**Status:** Modularer Flightweight-CAD-Stand; 34/34 Teile passen auf Bambu P2S, Strukturmasse ca. 274 g. Final-Master-Außenform bleibt verbindlich; physische Abnahme steht noch aus.
+**Version:** v20_IDENTITY_MATCH  
+**Status:** Aktuell bester gemessener Master-Match. Mean-IoU 0,2623 (Top 0,2514 / Side 0,2731). Noch nicht 1:1, daher WIP. README zeigt stets den besten gemessenen Stand, nicht die höchste Versionsnummer.
 
 ### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
@@ -30,12 +30,25 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 - austauschbare PETG-Kufen für Wasser, Rasen und festen Sand
 
 ## Versionierte Konstruktionsbilder
-Ältere Stände bleiben unter `docs/construction-images/vXX/` erhalten. Die README referenziert ausschließlich `current/`, damit auf GitHub immer automatisch der neueste Stand sichtbar ist.
+Ältere Stände bleiben unter `docs/construction-images/vXX/` erhalten. Die README referenziert ausschließlich `current/`, damit auf GitHub immer der aktuell beste gemessene Stand sichtbar ist.
 
 ## Aktuelle technische Basis
 Siehe `docs/ENGINEERING_CALCS_v02.md`.
 
 
 
+
+
+
+
+## Master-Overlay
+
+**Top:** Ziel grün, CAD rot, Überdeckung gelb.
+
+![Top Overlay](docs/comparison/current/top_overlay.png)
+
+**Side:**
+
+![Side Overlay](docs/comparison/current/side_overlay.png)
 
 
