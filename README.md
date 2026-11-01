@@ -1,12 +1,10 @@
-Ôªø# Hydrofoam Final Master
+# Hydrofoam Final Master
 
 Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup.
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v39_MASTER_SURFACE ‚Äî aktuell bester gemessener Master-Match  
-**Status:** WIP. Au√üenfl√§che direkt aus dem Final-Master rekonstruiert. Top-IoU 0,5433 / Side-IoU 0,2607 / Mean 0,4020. Noch nicht 1:1, daher keine Finalfreigabe.
-
+**Version:** v91_IDENTITY - aktueller Master-Convergence-WIP  `r`n**Status:** WIP. Direkt gegen den Final Master gepr¸ft. Top-IoU 0,6558 / Side-IoU 0,1261 / Mean 0,3910. Planform deutlich n‰her; 3D-Seitenprofil und Heck bleiben offen. Keine Finalfreigabe.  `r`n
 ### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
 
@@ -19,18 +17,21 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 ### Frontansicht
 ![Aktuelle Frontansicht](docs/construction-images/current/assembled_front.png)
 
+### Master-Hero-Vergleich
+![Aktueller Hero-Vergleich](docs/construction-images/current/master_hero.png)
+
 ## Konstruktionsziele
-- sichtbare Au√üenform folgt dem Final-Master-Mockup
-- Ziel-AUW 600‚Äì625 g mit 3S 2200 mAh
+- sichtbare Auﬂenform folgt dem Final-Master-Mockup
+- Ziel-AUW 600ñ625 g mit 3S 2200 mAh
 - harte MTOW-Grenze 650 g
 - 3S / SunnySky X2212 2450KV / APC 6x4 / 40-A-ESC
 - vier JX PDI-1109MG-Klasse Servos
 - modular druckbar auf Bambu Lab P2S
-- ausschlie√ülich PLA und PETG als Filamente
-- austauschbare PETG-Kufen f√ºr Wasser, Rasen und festen Sand
+- ausschlieﬂlich PLA und PETG als Filamente
+- austauschbare PETG-Kufen f¸r Wasser, Rasen und festen Sand
 
 ## Versionierte Konstruktionsbilder
-√Ñltere St√§nde bleiben unter `docs/construction-images/vXX/` erhalten. Die README referenziert ausschlie√ülich `current/`, damit auf GitHub immer der aktuell beste gemessene Stand sichtbar ist.
+ƒltere St‰nde bleiben unter `docs/construction-images/vXX/` erhalten. Die README referenziert ausschlieﬂlich `current/`, damit auf GitHub immer der aktuell beste gemessene Stand sichtbar ist.
 
 ## Aktuelle technische Basis
 Siehe `docs/ENGINEERING_CALCS_v02.md`.
@@ -43,13 +44,14 @@ Siehe `docs/ENGINEERING_CALCS_v02.md`.
 
 ## Master-Overlay
 
-**Top:** Ziel gr√ºn, CAD rot, √úberdeckung gelb.
+**Top:** Ziel gr¸n, CAD rot, ‹berdeckung gelb.
 
 ![Top Overlay](docs/comparison/current/top_overlay.png)
 
 **Side:**
 
 ![Side Overlay](docs/comparison/current/side_overlay.png)
+
 
 
 
