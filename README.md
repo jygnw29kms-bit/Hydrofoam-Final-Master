@@ -4,8 +4,8 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v08_MASTER_INTEGRATED  
-**Status:** WIP – Außenform wird direkt aus dem verbindlichen Final-Master-Mockup vermessen und konstruiert; aktuelle Bilder zeigen den laufenden Master-Trace.
+**Version:** v14_PRODUCTION_WIP  
+**Status:** Modularer Produktionsstand; 32/32 Bauteile passen auf Bambu P2S. Gewichtsoptimierung und Master-Surface-Feinschliff laufen.
 
 ### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
@@ -34,6 +34,7 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktuelle technische Basis
 Siehe `docs/ENGINEERING_CALCS_v02.md`.
+
 
 
 
