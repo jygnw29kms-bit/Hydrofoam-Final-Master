@@ -4,8 +4,8 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v20_IDENTITY_MATCH  
-**Status:** Aktuell bester gemessener Master-Match. Mean-IoU 0,2623 (Top 0,2514 / Side 0,2731). Noch nicht 1:1, daher WIP. README zeigt stets den besten gemessenen Stand, nicht die höchste Versionsnummer.
+**Version:** v18_MASTER_CONVERGENCE
+**Status:** Aktuell bester gemessener Stand gegen den EXAKTEN Final-Master. Top-IoU 0.2691, Side-IoU 0.2817, Mean-IoU 0.2754. Noch NICHT 1:1; Optimierung läuft ausschließlich gegen den Master.
 
 ### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
@@ -50,5 +50,6 @@ Siehe `docs/ENGINEERING_CALCS_v02.md`.
 **Side:**
 
 ![Side Overlay](docs/comparison/current/side_overlay.png)
+
 
 
