@@ -4,8 +4,8 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v14_PRODUCTION_WIP  
-**Status:** Modularer Produktionsstand; 32/32 Bauteile passen auf Bambu P2S. Gewichtsoptimierung und Master-Surface-Feinschliff laufen.
+**Version:** v17_FINAL_WEIGHT  
+**Status:** Modularer Flightweight-CAD-Stand; 34/34 Teile passen auf Bambu P2S, Strukturmasse ca. 274 g. Final-Master-Außenform bleibt verbindlich; physische Abnahme steht noch aus.
 
 ### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
@@ -34,6 +34,7 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktuelle technische Basis
 Siehe `docs/ENGINEERING_CALCS_v02.md`.
+
 
 
 

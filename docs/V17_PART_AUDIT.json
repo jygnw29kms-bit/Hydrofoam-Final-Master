@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Sponson_L_Front",
+    "material": "PLA",
+    "dx": 197.00000000000003,
+    "dy": 60.46430700891449,
+    "dz": 38.69409097019044,
+    "volume_mm3": 18630.760576763507,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_L_Rear",
+    "material": "PLA",
+    "dx": 170.00000000000003,
+    "dy": 60.46430700891449,
+    "dz": 37.9427975346225,
+    "volume_mm3": 16875.985139803714,
+    "fits_P2S": true
+  },
+  {
+    "name": "Skid_L",
+    "material": "PETG",
+    "dx": 245.00724256939213,
+    "dy": 12.0,
+    "dz": 1.5107267172815133,
+    "volume_mm3": 5750.583699462225,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_R_Front",
+    "material": "PLA",
+    "dx": 197.00000000000003,
+    "dy": 60.46430700891449,
+    "dz": 38.69409097019044,
+    "volume_mm3": 18630.760576763292,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_R_Rear",
+    "material": "PLA",
+    "dx": 170.00000000000003,
+    "dy": 60.46430700891449,
+    "dz": 37.9427975346225,
+    "volume_mm3": 16875.98513980357,
+    "fits_P2S": true
+  },
+  {
+    "name": "Skid_R",
+    "material": "PETG",
+    "dx": 245.00724256936996,
+    "dy": 12.0,
+    "dz": 1.5107267172567171,
+    "volume_mm3": 5750.583699463263,
+    "fits_P2S": true
+  },
+  {
+    "name": "CenterBody_Front",
+    "material": "PLA",
+    "dx": 182.99999999999997,
+    "dy": 100.23866382483205,
+    "dz": 51.8370349246925,
+    "volume_mm3": 23703.874232858172,
+    "fits_P2S": true
+  },
+  {
+    "name": "CenterBody_Rear",
+    "material": "PLA",
+    "dx": 145.00000000000003,
+    "dy": 99.0258851692956,
+    "dz": 48.656818426942394,
+    "volume_mm3": 18326.598028927263,
+    "fits_P2S": true
+  },
+  {
+    "name": "Canopy",
+    "material": "PLA",
+    "dx": 167.0,
+    "dy": 55.5546521145113,
+    "dz": 40.596333075322875,
+    "volume_mm3": 12059.849040275525,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_L_Front",
+    "material": "PLA",
+    "dx": 135.0,
+    "dy": 60.52380952380952,
+    "dz": 2.0,
+    "volume_mm3": 2893.8253968253957,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_L_Rear",
+    "material": "PLA",
+    "dx": 135.0,
+    "dy": 42.77777777777777,
+    "dz": 2.0,
+    "volume_mm3": 3838.174603174604,
+    "fits_P2S": true
+  },
+  {
+    "name": "RearFixed_L",
+    "material": "PLA",
+    "dx": 175.0,
+    "dy": 108.0,
+    "dz": 2.0,
+    "volume_mm3": 7004.000000000001,
+    "fits_P2S": true
+  },
+  {
+    "name": "OuterControl_L",
+    "material": "PLA",
+    "dx": 118.0796250710008,
+    "dy": 73.58310298986248,
+    "dz": 2.0,
+    "volume_mm3": 5143.5726181428945,
+    "fits_P2S": true
+  },
+  {
+    "name": "Pitch_L",
+    "material": "PLA",
+    "dx": 111.66995160732034,
+    "dy": 34.879415350552684,
+    "dz": 2.0,
+    "volume_mm3": 1796.388647738221,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_R_Front",
+    "material": "PLA",
+    "dx": 135.0,
+    "dy": 60.52380952380952,
+    "dz": 2.0,
+    "volume_mm3": 2893.8253968253966,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_R_Rear",
+    "material": "PLA",
+    "dx": 135.0,
+    "dy": 42.77777777777777,
+    "dz": 2.0,
+    "volume_mm3": 3838.1746031746025,
+    "fits_P2S": true
+  },
+  {
+    "name": "RearFixed_R",
+    "material": "PLA",
+    "dx": 175.0,
+    "dy": 108.0,
+    "dz": 2.0,
+    "volume_mm3": 7003.999999999999,
+    "fits_P2S": true
+  },
+  {
+    "name": "OuterControl_R",
+    "material": "PLA",
+    "dx": 118.0796250710008,
+    "dy": 73.58310298986248,
+    "dz": 2.0,
+    "volume_mm3": 5146.085857881695,
+    "fits_P2S": true
+  },
+  {
+    "name": "Pitch_R",
+    "material": "PLA",
+    "dx": 111.66995160732034,
+    "dy": 34.879415350552684,
+    "dz": 2.0,
+    "volume_mm3": 1794.5770621147178,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorLeg_L",
+    "material": "PETG",
+    "dx": 34.0,
+    "dy": 12.051749628253841,
+    "dz": 53.0,
+    "volume_mm3": 4348.933699334883,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorLeg_R",
+    "material": "PETG",
+    "dx": 34.0,
+    "dy": 12.051749628253841,
+    "dz": 53.0,
+    "volume_mm3": 4348.9336993348825,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorBridge",
+    "material": "PETG",
+    "dx": 8.997202638007366,
+    "dy": 46.0,
+    "dz": 9.0,
+    "volume_mm3": 2926.3935568188936,
+    "fits_P2S": true
+  },
+  {
+    "name": "Firewall",
+    "material": "PETG",
+    "dx": 6.0,
+    "dy": 33.989432188027756,
+    "dz": 34.0,
+    "volume_mm3": 5447.521661324701,
+    "fits_P2S": true
+  },
+  {
+    "name": "Fin_L",
+    "material": "PLA",
+    "dx": 89.0,
+    "dy": 1.5999999999999943,
+    "dz": 98.0,
+    "volume_mm3": 7217.599999999991,
+    "fits_P2S": true
+  },
+  {
+    "name": "Rudder_L",
+    "material": "PLA",
+    "dx": 42.0,
+    "dy": 1.5999999999999943,
+    "dz": 90.0,
+    "volume_mm3": 3643.199999999996,
+    "fits_P2S": true
+  },
+  {
+    "name": "Fin_R",
+    "material": "PLA",
+    "dx": 89.0,
+    "dy": 1.5999999999999943,
+    "dz": 98.0,
+    "volume_mm3": 7217.599999999991,
+    "fits_P2S": true
+  },
+  {
+    "name": "Rudder_R",
+    "material": "PLA",
+    "dx": 42.0,
+    "dy": 1.5999999999999943,
+    "dz": 90.0,
+    "volume_mm3": 3643.199999999996,
+    "fits_P2S": true
+  },
+  {
+    "name": "BatteryRails",
+    "material": "PETG",
+    "dx": 155.0,
+    "dy": 46.0,
+    "dz": 3.0,
+    "volume_mm3": 2790.000000000001,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_AilL",
+    "material": "PETG",
+    "dx": 1.4995337730011897,
+    "dy": 64.0,
+    "dz": 1.5,
+    "volume_mm3": 113.09733552923261,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_AilR",
+    "material": "PETG",
+    "dx": 1.4995337730011897,
+    "dy": 64.0,
+    "dz": 1.5,
+    "volume_mm3": 113.09733552923261,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_PitchL",
+    "material": "PETG",
+    "dx": 1.4995337730011897,
+    "dy": 45.0,
+    "dz": 1.5,
+    "volume_mm3": 79.52156404399169,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_PitchR",
+    "material": "PETG",
+    "dx": 1.4995337730011897,
+    "dy": 45.0,
+    "dz": 1.5,
+    "volume_mm3": 79.52156404399169,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_RudL",
+    "material": "PETG",
+    "dx": 1.5,
+    "dy": 1.4995337730012466,
+    "dz": 74.0,
+    "volume_mm3": 130.76879420567522,
+    "fits_P2S": true
+  },
+  {
+    "name": "Hinge_RudR",
+    "material": "PETG",
+    "dx": 1.5,
+    "dy": 1.4995337730012466,
+    "dz": 74.0,
+    "volume_mm3": 130.76879420567522,
+    "fits_P2S": true
+  }
+]
