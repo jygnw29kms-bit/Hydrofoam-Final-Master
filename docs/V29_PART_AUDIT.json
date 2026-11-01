@@ -1,0 +1,245 @@
+[
+  {
+    "name": "CenterBody_Front",
+    "material": "PLA",
+    "dx": 195.0490188138399,
+    "dy": 117.53345614959423,
+    "dz": 99.32981580624653,
+    "volume_mm3": 1368573.4727903288,
+    "fits_P2S": true
+  },
+  {
+    "name": "CenterBody_Rear",
+    "material": "PLA",
+    "dx": 255.0,
+    "dy": 118.60868543555874,
+    "dz": 99.48777633331258,
+    "volume_mm3": 1913984.7574904684,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_L_Front",
+    "material": "PLA",
+    "dx": 185.00000000000006,
+    "dy": 68.36167249214277,
+    "dz": 37.184833516040825,
+    "volume_mm3": 22160.6010448924,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_L_Rear",
+    "material": "PLA",
+    "dx": 190.0301576116447,
+    "dy": 69.51347628033449,
+    "dz": 37.17069008846188,
+    "volume_mm3": 22708.245250698124,
+    "fits_P2S": true
+  },
+  {
+    "name": "Skid_L",
+    "material": "PETG",
+    "dx": 230.0,
+    "dy": 12.0,
+    "dz": 1.5,
+    "volume_mm3": 4140.0,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_R_Front",
+    "material": "PLA",
+    "dx": 185.00000000000006,
+    "dy": 68.36167249214277,
+    "dz": 37.184833516040825,
+    "volume_mm3": 22160.601044892428,
+    "fits_P2S": true
+  },
+  {
+    "name": "Sponson_R_Rear",
+    "material": "PLA",
+    "dx": 190.0301576116447,
+    "dy": 69.51347628033449,
+    "dz": 37.170690088461875,
+    "volume_mm3": 22708.245250697455,
+    "fits_P2S": true
+  },
+  {
+    "name": "Skid_R",
+    "material": "PETG",
+    "dx": 230.0,
+    "dy": 12.0,
+    "dz": 1.5,
+    "volume_mm3": 4140.0,
+    "fits_P2S": true
+  },
+  {
+    "name": "Canopy",
+    "material": "PLA",
+    "dx": 172.0,
+    "dy": 68.07126385462867,
+    "dz": 31.402589981535073,
+    "volume_mm3": 14073.010524412299,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_L_Front",
+    "material": "PLA",
+    "dx": 140.0,
+    "dy": 150.8598169278106,
+    "dz": 6.317142857142869,
+    "volume_mm3": 58426.70771495717,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_L_Rear",
+    "material": "PLA",
+    "dx": 130.00000000000006,
+    "dy": 142.9318779906224,
+    "dz": 5.437142857142561,
+    "volume_mm3": 50280.09867700767,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_R_Front",
+    "material": "PLA",
+    "dx": 140.0,
+    "dy": 150.8598169278106,
+    "dz": 6.317142857142869,
+    "volume_mm3": 58426.70771495716,
+    "fits_P2S": true
+  },
+  {
+    "name": "ShoulderWing_R_Rear",
+    "material": "PLA",
+    "dx": 130.00000000000006,
+    "dy": 142.9318779906224,
+    "dz": 5.437142857142561,
+    "volume_mm3": 50280.098677007685,
+    "fits_P2S": true
+  },
+  {
+    "name": "RearFixed_L",
+    "material": "PLA",
+    "dx": 95.0,
+    "dy": 201.79212784069338,
+    "dz": 2.0,
+    "volume_mm3": 37453.01642832231,
+    "fits_P2S": true
+  },
+  {
+    "name": "OuterControl_L",
+    "material": "PLA",
+    "dx": 85.0,
+    "dy": 190.72935560859187,
+    "dz": 2.0,
+    "volume_mm3": 29792.61739022136,
+    "fits_P2S": true
+  },
+  {
+    "name": "Pitch_L",
+    "material": "PLA",
+    "dx": 115.38914051406647,
+    "dy": 35.80190886910508,
+    "dz": 2.0,
+    "volume_mm3": 2840.5316247701553,
+    "fits_P2S": true
+  },
+  {
+    "name": "RearFixed_R",
+    "material": "PLA",
+    "dx": 95.0,
+    "dy": 201.79212784069338,
+    "dz": 2.0,
+    "volume_mm3": 37453.49798680164,
+    "fits_P2S": true
+  },
+  {
+    "name": "OuterControl_R",
+    "material": "PLA",
+    "dx": 85.0,
+    "dy": 190.72935560859187,
+    "dz": 2.0,
+    "volume_mm3": 29792.617390221363,
+    "fits_P2S": true
+  },
+  {
+    "name": "Pitch_R",
+    "material": "PLA",
+    "dx": 115.38914051406647,
+    "dy": 35.80190886910508,
+    "dz": 2.0,
+    "volume_mm3": 2840.742191820817,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorLeg_L",
+    "material": "PETG",
+    "dx": 31.0,
+    "dy": 3.0,
+    "dz": 41.0,
+    "volume_mm3": 1375.5,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorLeg_R",
+    "material": "PETG",
+    "dx": 31.0,
+    "dy": 3.0,
+    "dz": 41.0,
+    "volume_mm3": 1375.5,
+    "fits_P2S": true
+  },
+  {
+    "name": "MotorBridge",
+    "material": "PETG",
+    "dx": 8.997202638007366,
+    "dy": 44.0,
+    "dz": 9.0,
+    "volume_mm3": 2799.1590543485067,
+    "fits_P2S": true
+  },
+  {
+    "name": "Firewall",
+    "material": "PETG",
+    "dx": 4.0,
+    "dy": 31.990053824026123,
+    "dz": 32.0,
+    "volume_mm3": 3216.9908772759472,
+    "fits_P2S": true
+  },
+  {
+    "name": "Fin_L",
+    "material": "PLA",
+    "dx": 86.0,
+    "dy": 1.5999999999999943,
+    "dz": 74.48777648428404,
+    "volume_mm3": 7564.19371362048,
+    "fits_P2S": true
+  },
+  {
+    "name": "Rudder_L",
+    "material": "PLA",
+    "dx": 33.0,
+    "dy": 1.5999999999999943,
+    "dz": 66.48777648428404,
+    "volume_mm3": 2787.9599534342224,
+    "fits_P2S": true
+  },
+  {
+    "name": "Fin_R",
+    "material": "PLA",
+    "dx": 86.0,
+    "dy": 1.5999999999999943,
+    "dz": 74.48777648428404,
+    "volume_mm3": 7564.19371362048,
+    "fits_P2S": true
+  },
+  {
+    "name": "Rudder_R",
+    "material": "PLA",
+    "dx": 33.0,
+    "dy": 1.5999999999999943,
+    "dz": 66.48777648428404,
+    "volume_mm3": 2787.9599534342224,
+    "fits_P2S": true
+  }
+]
