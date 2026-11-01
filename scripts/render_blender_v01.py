@@ -1,4 +1,4 @@
-﻿import bpy, os, math
+import bpy, os, math
 from mathutils import Vector
 ROOT=r'C:\Users\dezen\Desktop\JL1976\Hydrofoam\Final_Master'
 stl=os.path.join(ROOT,'cad','Hydrofoam_Final_Master_v01_assembly.stl')
@@ -56,6 +56,7 @@ render('assembled_top.png',(0,0,720),55)
 render('assembled_side.png',(0,-720,100),58)
 render('assembled_front.png',(-720,0,100),58)
 print('RENDERED', out)
+
 
 
 
