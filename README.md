@@ -4,7 +4,7 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v03_MASTER_REFINE  
+**Version:** v04_FINAL_MASTER_BODY  
 **Status:** Mockup-Außenform weiter verfeinert; Sponsons schlanker, Deck/Pod flacher, Motor-/Leitwerkszone kompakter. Weitere Master-Angleichung läuft.
 
 ### Isometrisch
@@ -34,4 +34,5 @@ Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup
 
 ## Aktuelle technische Basis
 Siehe `docs/ENGINEERING_CALCS_v02.md`.
+
 
