@@ -1,0 +1,6 @@
+﻿SHUTDOWN CHECKPOINT 2026-11-02
+Best current candidate: v219_V5_SWEEP
+Best mean master match: 0.51522
+Latest built: v220_V5_SWEEP
+README current intentionally still v94 pending visual release check
+Resume from v219/v220 with direct Final Master comparison
