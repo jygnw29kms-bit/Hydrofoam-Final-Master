@@ -1,0 +1,3 @@
+top_iou=0.570937 rot=90 flip=False
+side_iou=0.442417 rot=0 flip=False
+mean_iou=0.506677
