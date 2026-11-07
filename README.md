@@ -1,10 +1,10 @@
-﻿# Hydrofoam Final Master
+# Hydrofoam Final Master
 
 Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup.
 
 ## Aktueller Konstruktionsstand
 
-**Version:** v94_IDENTITY_REFINE - aktuell bester Master-Match`r`n### Isometrisch
+**Version:** v288_BOTTOM_FIT_CLEAN - 3D-Formmodell, optisch noch nicht final`r`n### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
 
 ### Draufsicht
