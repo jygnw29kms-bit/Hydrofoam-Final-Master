@@ -1,0 +1,26 @@
+{
+  "Left": {
+    "watertight": true,
+    "winding_consistent": true,
+    "axis_p2s_size": true,
+    "volume_error_relative": 4.792235959711996e-09,
+    "volume_pass_1pct": true,
+    "source_mm3": 60972.00199858343,
+    "parts_volume_mm3": [
+      22003.0694203555,
+      38968.932870420154
+    ]
+  },
+  "Right": {
+    "watertight": true,
+    "winding_consistent": true,
+    "axis_p2s_size": true,
+    "volume_error_relative": 8.230508519902908e-10,
+    "volume_pass_1pct": true,
+    "source_mm3": 60972.00199858343,
+    "parts_volume_mm3": [
+      22003.069044852902,
+      38968.93300391359
+    ]
+  }
+}
