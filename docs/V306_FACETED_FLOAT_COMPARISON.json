@@ -1,0 +1,22 @@
+{
+  "float_left": {
+    "old_mm3": 44545.21771312579,
+    "new_mm3": 46507.019468966624,
+    "mass_change_pct": 4.404068172873163,
+    "new_front_rear_seam_vertices_shared": 175,
+    "new_front_rear_seam_vertices_difference": 0,
+    "new_both_watertight": true,
+    "new_both_consistent": true,
+    "new_max_axis_mm": 179.62765502929688
+  },
+  "float_right": {
+    "old_mm3": 44543.47151877066,
+    "new_mm3": 46505.4377040331,
+    "mass_change_pct": 4.404609964976948,
+    "new_front_rear_seam_vertices_shared": 175,
+    "new_front_rear_seam_vertices_difference": 0,
+    "new_both_watertight": true,
+    "new_both_consistent": true,
+    "new_max_axis_mm": 179.62765502929688
+  }
+}
