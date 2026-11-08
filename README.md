@@ -1,5 +1,18 @@
 # Hydrofoam Final Master
 
+## EINZIGER VERBINDLICHER FINAL MASTER
+
+![Original-Final-Master, unveraendert](reference/FINAL_MASTER_ORIGINAL.jpeg)
+
+**Dieses Originalbild ist die einzige verbindliche Designvorlage.** Keine CAD-Visualisierung, keine automatisch generierten Bilder und keine aelteren Silhouettenmasken ersetzen es.
+
+[Master-Sperre mit Pruefsumme und Merkmalen](docs/FINAL_MASTER_LOCK.md) | [Original als JPEG](reference/FINAL_MASTER_ORIGINAL.jpeg)
+
+**SHA-256:** `a4d3199bae23965fbd9e3c7f761e8e55e2911e5634889f670fea32a92b7007fd`
+
+---
+
+
 Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup.
 
 ## Aktueller Konstruktionsstand
