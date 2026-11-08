@@ -1,0 +1,86 @@
+{
+  "center_front.stl": {
+    "source_faces": 8502,
+    "kept_faces": 8496,
+    "components_seen": 1,
+    "original_watertight": false,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 2.205952131689413e-13,
+    "dimension_mm": [
+      209.84664916992188,
+      86.60346221923828,
+      45.234707832336426
+    ]
+  },
+  "center_rear.stl": {
+    "source_faces": 5406,
+    "kept_faces": 5406,
+    "components_seen": 1,
+    "original_watertight": true,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 0.0,
+    "dimension_mm": [
+      217.14634704589844,
+      78.75558471679688,
+      33.63791465759277
+    ]
+  },
+  "float_left_front.stl": {
+    "source_faces": 6764,
+    "kept_faces": 6764,
+    "components_seen": 1,
+    "original_watertight": true,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 0.0,
+    "dimension_mm": [
+      153.8905487060547,
+      59.498565673828125,
+      41.84054183959961
+    ]
+  },
+  "float_left_rear.stl": {
+    "source_faces": 6054,
+    "kept_faces": 6058,
+    "components_seen": 1,
+    "original_watertight": false,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 1.1839321234165239e-08,
+    "dimension_mm": [
+      179.62765502929688,
+      59.44914245605469,
+      41.310882568359375
+    ]
+  },
+  "float_right_front.stl": {
+    "source_faces": 6764,
+    "kept_faces": 6764,
+    "components_seen": 1,
+    "original_watertight": true,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 0.0,
+    "dimension_mm": [
+      153.8905487060547,
+      59.498565673828125,
+      41.84054183959961
+    ]
+  },
+  "float_right_rear.stl": {
+    "source_faces": 6058,
+    "kept_faces": 6058,
+    "components_seen": 1,
+    "original_watertight": true,
+    "reloaded_watertight": true,
+    "reloaded_consistent": true,
+    "volume_loss_percent": 0.0,
+    "dimension_mm": [
+      179.62765502929688,
+      59.44914245605469,
+      41.310882568359375
+    ]
+  }
+}

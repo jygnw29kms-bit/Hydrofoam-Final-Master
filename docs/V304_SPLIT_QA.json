@@ -1,0 +1,44 @@
+{
+  "center": {
+    "source_volume_mm3": 88931.02433872518,
+    "split_volume_mm3": 89026.69161729081,
+    "relative_difference_pct": 0.10757469541927674,
+    "watertight_parts": [
+      false,
+      true
+    ],
+    "p2s_256_axis_fit_parts": [
+      true,
+      true
+    ],
+    "passes_volume_1pct": true
+  },
+  "float_left": {
+    "source_volume_mm3": 44540.86565418654,
+    "split_volume_mm3": 44545.21771576436,
+    "relative_difference_pct": 0.009770940716795172,
+    "watertight_parts": [
+      true,
+      false
+    ],
+    "p2s_256_axis_fit_parts": [
+      true,
+      true
+    ],
+    "passes_volume_1pct": true
+  },
+  "float_right": {
+    "source_volume_mm3": 44541.39581860454,
+    "split_volume_mm3": 44543.47151877066,
+    "relative_difference_pct": 0.004660159673872683,
+    "watertight_parts": [
+      true,
+      true
+    ],
+    "p2s_256_axis_fit_parts": [
+      true,
+      true
+    ],
+    "passes_volume_1pct": true
+  }
+}
