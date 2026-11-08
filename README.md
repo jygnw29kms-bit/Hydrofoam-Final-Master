@@ -15,7 +15,22 @@
 
 Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup.
 
-## Aktueller Konstruktionsstand
+## Aktueller technischer Modellstand: v305 (WIP)
+
+**Blender-Gesamtbaugruppe, noch keine Final-/Flug- oder Druckfreigabe.**
+Der Maßstab, das äußere Design und die lackierte Silhouette werden ausschließlich an [FINAL_MASTER_ORIGINAL.jpeg](reference/FINAL_MASTER_ORIGINAL.jpeg) gemessen.
+
+![Hydrofoam v305, echtes Blender-Modell Isometrie](renders/v305/assembled_iso.png)
+
+![Hydrofoam v305, Draufsicht](renders/v305/assembled_top.png)
+
+![Hydrofoam v305, Cockpit geöffnet](renders/v305/exploded_cockpit.png)
+
+[CAD-Schnittstudie, Leichtbau- und Mesh-Prüfbericht v305](docs/V305_MODEL_PROGRESS.md)
+
+---
+
+## Historischer Vergleichsstand v288 (nicht Final)
 
 **Version:** v288_BOTTOM_FIT_CLEAN - 3D-Formmodell, optisch noch nicht final`r`n### Isometrisch
 ![Aktueller ISO-Stand](docs/construction-images/current/assembled_iso.png)
