@@ -1,0 +1,62 @@
+{
+  "status": "PASS_MESH_ONLY",
+  "canopy_degenerate_faces_removed": 2,
+  "parts": [
+    {
+      "file": "central_hull_shell.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 88931.02,
+      "estimated_PLA_mass_g": 110.27,
+      "extents_mm": [
+        426.99,
+        86.6,
+        45.23
+      ],
+      "single_part_fits_P2S": false
+    },
+    {
+      "file": "left_float_shell.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 44540.87,
+      "estimated_PLA_mass_g": 55.23,
+      "extents_mm": [
+        333.52,
+        59.5,
+        41.84
+      ],
+      "single_part_fits_P2S": false
+    },
+    {
+      "file": "removable_smoked_canopy.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 40446.3,
+      "estimated_PLA_mass_g": 50.15,
+      "extents_mm": [
+        150.47,
+        45.37,
+        19.32
+      ],
+      "single_part_fits_P2S": true
+    },
+    {
+      "file": "right_float_shell.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 44541.4,
+      "estimated_PLA_mass_g": 55.23,
+      "extents_mm": [
+        333.52,
+        59.5,
+        41.84
+      ],
+      "single_part_fits_P2S": false
+    }
+  ]
+}
