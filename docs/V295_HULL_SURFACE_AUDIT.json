@@ -1,0 +1,301 @@
+{
+  "source": "v294",
+  "refined": [
+    {
+      "part": "01 Master Central fuselage",
+      "before_vertices": 392,
+      "after_vertices": 6050
+    },
+    {
+      "part": "02 Black canopy",
+      "before_vertices": 224,
+      "after_vertices": 3362
+    },
+    {
+      "part": "10 Planing float Left",
+      "before_vertices": 364,
+      "after_vertices": 5602
+    },
+    {
+      "part": "10 Planing float Right",
+      "before_vertices": 364,
+      "after_vertices": 5602
+    },
+    {
+      "part": "11 Orange float leading stripe Left",
+      "before_vertices": 96,
+      "after_vertices": 1410
+    },
+    {
+      "part": "11 Orange float leading stripe Right",
+      "before_vertices": 96,
+      "after_vertices": 1410
+    },
+    {
+      "part": "12 Black PETG skid Left",
+      "before_vertices": 72,
+      "after_vertices": 1058
+    },
+    {
+      "part": "12 Black PETG skid Right",
+      "before_vertices": 72,
+      "after_vertices": 1058
+    }
+  ],
+  "audit": [
+    {
+      "part": "01 Master Central fuselage",
+      "vertices": 6050,
+      "faces": 6048,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "02 Black canopy",
+      "vertices": 3362,
+      "faces": 3360,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "10 Planing float Left",
+      "vertices": 5602,
+      "faces": 5600,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "10 Planing float Right",
+      "vertices": 5602,
+      "faces": 5600,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "11 Orange float leading stripe Left",
+      "vertices": 1410,
+      "faces": 1408,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "11 Orange float leading stripe Right",
+      "vertices": 1410,
+      "faces": 1408,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "12 Black PETG skid Left",
+      "vertices": 1058,
+      "faces": 1056,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "12 Black PETG skid Right",
+      "vertices": 1058,
+      "faces": 1056,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "20 Swept blended wing Left",
+      "vertices": 36,
+      "faces": 51,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "20 Swept blended wing Right",
+      "vertices": 36,
+      "faces": 51,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "21 Orange wing curve Left",
+      "vertices": 24,
+      "faces": 33,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "21 Orange wing curve Right",
+      "vertices": 24,
+      "faces": 33,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "22 Outer rear wing Left",
+      "vertices": 14,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "22 Outer rear wing Right",
+      "vertices": 14,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "23 Orange wingtip Left",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "23 Orange wingtip Right",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "24 Elevon Left",
+      "vertices": 14,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "24 Elevon Right",
+      "vertices": 14,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "25 Orange elevon trim Left",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "25 Orange elevon trim Right",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "30 Tail fin Left",
+      "vertices": 14,
+      "faces": 17,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "30 Tail fin Right",
+      "vertices": 14,
+      "faces": 17,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "31 Tail fin orange top Left",
+      "vertices": 8,
+      "faces": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "31 Tail fin orange top Right",
+      "vertices": 8,
+      "faces": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "32 Tail fin dark inset Left",
+      "vertices": 8,
+      "faces": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "32 Tail fin dark inset Right",
+      "vertices": 8,
+      "faces": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "33 Float service panel Left",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "33 Float service panel Right",
+      "vertices": 10,
+      "faces": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "40 Arch motor foot",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "40 Arch motor foot.001",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "41 Arch inclined arm",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "41 Arch inclined arm.001",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "42 Arch top brace",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "43 Brushless motor",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "44 Orange bell",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "45 Prop spindle",
+      "vertices": 32,
+      "faces": 18,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "46 Pusher propeller lower blade",
+      "vertices": 24,
+      "faces": 22,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "46 Pusher propeller upper blade",
+      "vertices": 24,
+      "faces": 22,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "50 Access panel screw",
+      "vertices": 62,
+      "faces": 72,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "50 Access panel screw.001",
+      "vertices": 62,
+      "faces": 72,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "50 Access panel screw.002",
+      "vertices": 62,
+      "faces": 72,
+      "nonmanifold_edges": 0
+    },
+    {
+      "part": "50 Access panel screw.003",
+      "vertices": 62,
+      "faces": 72,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "all_parts_manifold": true,
+  "note": "Surface refinement only. Not certified as print-ready: intersections, mount holes, center of gravity and full-size scaling unresolved."
+}
