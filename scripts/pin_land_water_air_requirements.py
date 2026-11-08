@@ -13,7 +13,7 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 '''
- idx=a.find('## Aktueller Konstruktionsstand')
+ idx=a.find('## Aktueller technischer Modellstand:')
  if idx<0:raise RuntimeError('README ANCHOR NOT FOUND')
  a=a[:idx]+new+a[idx:]
  p.write_text(a,encoding='utf-8',newline='\n')

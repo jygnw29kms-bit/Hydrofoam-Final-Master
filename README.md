@@ -15,6 +15,14 @@
 
 Futuristisches modulares RC-HydroFoam nach dem verbindlichen Final-Master-Mockup.
 
+## VERBINDLICH: LAND + WASSER + LUFT
+
+**Hydrofoam ist ein Dreimoden-Modell, kein reines Wasserfahrzeug.**
+Es muss eigenstaendig auf Land (auch Kurzrasen/tragfaehiger Sand), auf Wasser mit Gleit-/Foilfahrt und in der Luft funktionieren. Die sichtbare Form des [unveraenderten Final Masters](reference/FINAL_MASTER_ORIGINAL.jpeg) bleibt dabei verbindlich.
+Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfreiheit und separate Abnahmetests: [LAND_WATER_AIR_REQUIREMENTS.md](docs/LAND_WATER_AIR_REQUIREMENTS.md).
+
+**Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
+
 ## Aktueller technischer Modellstand: v305 (WIP)
 
 **Blender-Gesamtbaugruppe, noch keine Final-/Flug- oder Druckfreigabe.**
