@@ -1,0 +1,176 @@
+{
+  "status": "geometric_seam_check_only",
+  "pairs": [
+    {
+      "part": "01_Master_Central_fuselage",
+      "category": "hull",
+      "plane_x_mm": -15,
+      "seam_bounds_match": true,
+      "front_seam": {
+        "count": 112,
+        "y_min": -39.37779235839844,
+        "y_max": 39.37779235839844,
+        "z_min": 18.592458724975586,
+        "z_max": 52.23037338256836
+      },
+      "rear_seam": {
+        "count": 112,
+        "y_min": -39.37779235839844,
+        "y_max": 39.37779235839844,
+        "z_min": 18.592458724975586,
+        "z_max": 52.23037338256836
+      },
+      "both_watertight": true,
+      "both_consistent": true,
+      "front_dims_mm": [
+        209.84664916992188,
+        86.60346221923828,
+        47.1956148147583
+      ],
+      "rear_dims_mm": [
+        217.14634704589844,
+        78.75558471679688,
+        33.63791465759277
+      ],
+      "volume_sum_mm3": 632173.5620639658
+    },
+    {
+      "part": "10_Planing_float_Left",
+      "category": "hull",
+      "plane_x_mm": -10,
+      "seam_bounds_match": true,
+      "front_seam": {
+        "count": 112,
+        "y_min": -148.72457885742188,
+        "y_max": -89.27543640136719,
+        "z_min": -4.940204620361328,
+        "z_max": 36.37067794799805
+      },
+      "rear_seam": {
+        "count": 112,
+        "y_min": -148.72457885742188,
+        "y_max": -89.27543640136719,
+        "z_min": -4.940204620361328,
+        "z_max": 36.37067794799805
+      },
+      "both_watertight": true,
+      "both_consistent": true,
+      "front_dims_mm": [
+        153.8905487060547,
+        59.498565673828125,
+        41.84054183959961
+      ],
+      "rear_dims_mm": [
+        179.62765502929688,
+        59.44914245605469,
+        41.310882568359375
+      ],
+      "volume_sum_mm3": 418946.7173084405
+    },
+    {
+      "part": "10_Planing_float_Right",
+      "category": "hull",
+      "plane_x_mm": -10,
+      "seam_bounds_match": true,
+      "front_seam": {
+        "count": 112,
+        "y_min": 89.27543640136719,
+        "y_max": 148.72457885742188,
+        "z_min": -4.940204620361328,
+        "z_max": 36.37067794799805
+      },
+      "rear_seam": {
+        "count": 112,
+        "y_min": 89.27543640136719,
+        "y_max": 148.72457885742188,
+        "z_min": -4.940204620361328,
+        "z_max": 36.37067794799805
+      },
+      "both_watertight": true,
+      "both_consistent": true,
+      "front_dims_mm": [
+        153.8905487060547,
+        59.498565673828125,
+        41.84054183959961
+      ],
+      "rear_dims_mm": [
+        179.62765502929688,
+        59.44914245605469,
+        41.310882568359375
+      ],
+      "volume_sum_mm3": 418946.7170364039
+    },
+    {
+      "part": "20_Swept_blended_wing_Left",
+      "category": "wing",
+      "plane_x_mm": -10,
+      "seam_bounds_match": true,
+      "front_seam": {
+        "count": 16,
+        "y_min": -125.4000015258789,
+        "y_max": -46.56321716308594,
+        "z_min": 32.39142608642578,
+        "z_max": 36.32559585571289
+      },
+      "rear_seam": {
+        "count": 16,
+        "y_min": -125.4000015258789,
+        "y_max": -46.56321716308594,
+        "z_min": 32.39142608642578,
+        "z_max": 36.32559585571289
+      },
+      "both_watertight": true,
+      "both_consistent": true,
+      "front_dims_mm": [
+        155.00000381469727,
+        95.4000015258789,
+        3.961627960205078
+      ],
+      "rear_dims_mm": [
+        180.0,
+        189.43678283691406,
+        6.4013824462890625
+      ],
+      "volume_sum_mm3": 60972.00229077565
+    },
+    {
+      "part": "20_Swept_blended_wing_Right",
+      "category": "wing",
+      "plane_x_mm": -10,
+      "seam_bounds_match": true,
+      "front_seam": {
+        "count": 16,
+        "y_min": 46.56321716308594,
+        "y_max": 125.4000015258789,
+        "z_min": 32.39142608642578,
+        "z_max": 36.32559585571289
+      },
+      "rear_seam": {
+        "count": 16,
+        "y_min": 46.56321716308594,
+        "y_max": 125.4000015258789,
+        "z_min": 32.39142608642578,
+        "z_max": 36.32559585571289
+      },
+      "both_watertight": true,
+      "both_consistent": true,
+      "front_dims_mm": [
+        155.00000381469727,
+        95.4000015258789,
+        3.961627960205078
+      ],
+      "rear_dims_mm": [
+        180.0,
+        189.43678283691406,
+        6.4013824462890625
+      ],
+      "volume_sum_mm3": 60972.002557762535
+    }
+  ],
+  "caveats": [
+    "No joining features yet",
+    "No material or weight validation",
+    "No photo fidelity certification",
+    "No slicer verification"
+  ]
+}

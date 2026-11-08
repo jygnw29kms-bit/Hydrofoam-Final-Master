@@ -1,0 +1,32 @@
+{
+  "01_Master_Central_fuselage": {
+    "source_mm3": 632177.2944103386,
+    "split_sum_mm3": 632173.5620639658,
+    "relative_volume_error": 5.903955117965167e-06,
+    "passes_1pct": true
+  },
+  "10_Planing_float_Left": {
+    "source_mm3": 418947.1743069778,
+    "split_sum_mm3": 418946.7173084405,
+    "relative_volume_error": 1.0908261597671195e-06,
+    "passes_1pct": true
+  },
+  "10_Planing_float_Right": {
+    "source_mm3": 418947.17401285353,
+    "split_sum_mm3": 418946.7170364039,
+    "relative_volume_error": 1.0907734387221648e-06,
+    "passes_1pct": true
+  },
+  "20_Swept_blended_wing_Left": {
+    "source_mm3": 20324.00834687554,
+    "split_sum_mm3": 60972.00229077565,
+    "relative_volume_error": 1.9999988806415259,
+    "passes_1pct": false
+  },
+  "20_Swept_blended_wing_Right": {
+    "source_mm3": 20324.00834687554,
+    "split_sum_mm3": 60972.002557762535,
+    "relative_volume_error": 1.9999988937780528,
+    "passes_1pct": false
+  }
+}
