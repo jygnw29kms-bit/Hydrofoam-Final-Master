@@ -56,3 +56,11 @@ Siehe `docs/ENGINEERING_CALCS_v02.md`.
 
 
 
+
+## Engineering-Workflow: FreeCAD + Blender
+
+**Verbindlich ist der Original-Final-Master.** FreeCAD definiert die parametrische Unterwassermechanik und die Befestigungs- und Dichtungsschnittstellen; Blender modelliert die optisch verbindliche organische Rumpf-/Tragflächenform.
+
+- [Vollständige Schritt-für-Schritt-Anleitung für FreeCAD, Blender, Hydrofoils, Elektronikbox, Antrieb und GitHub](docs/WORKFLOW_FREECAD_BLENDER.md)
+- Status: **Entwicklung**. Die aktuellsten Konstruktionsexperimente dürfen nicht mit freigegebenen Final-Master-Bildern oder druckfertigen Baugruppen verwechselt werden.
+- Der Bambu Lab P2S bietet 256 x 256 x 256 mm Bauraum. Für reale Druckfreigabe sind Slicer-Platzierung und Material-/Festigkeitsprüfung erforderlich.
