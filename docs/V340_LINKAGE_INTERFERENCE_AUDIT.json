@@ -1,0 +1,268 @@
+{
+  "version": "v340",
+  "source_blend": "cad\\Hydrofoam_Final_Master_v339_ELEVON_LINKAGE_REFERENCES_WIP.blend",
+  "reference_sha256": "a4d3199bae23965fbd9e3c7f761e8e55e2911e5634889f670fea32a92b7007fd",
+  "test": "Blender BVH surface triangle overlap; not a proof of positive physical clearance",
+  "linkages": [
+    {
+      "rod": "V339_Left_ELEVON_PUSHROD_REFERENCE_WIP",
+      "intersecting_meshes": 70,
+      "hits": [
+        {
+          "object": "LEFT_AILERON_HORN_PLACEHOLDER",
+          "triangle_pairs": 256
+        },
+        {
+          "object": "RIGHT_AILERON_HORN_PLACEHOLDER",
+          "triangle_pairs": 256
+        },
+        {
+          "object": "50 Access panel screw",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.001",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.002",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.003",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "v301 Cockpit flange L",
+          "triangle_pairs": 104
+        },
+        {
+          "object": "v301 Cockpit flange R",
+          "triangle_pairs": 104
+        },
+        {
+          "object": "41 Arch inclined arm",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "41 Arch inclined arm.001",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "42 Arch top brace",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "43 Brushless motor",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "44 Orange bell",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "45 Prop spindle",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_HINGE_AXIS_REFERENCE",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_PUSHROD_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_SERVO_PLACEHOLDER",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_-61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_-61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_-61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_-61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "POD_BASE_150x85x40_WALL3",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_FOIL_BLADE_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_MOUNTING_TOP_PLATE_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_PIN_PLACEHOLDER_-10",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_PIN_PLACEHOLDER_10",
+          "triangle_pairs": 96
+        }
+      ]
+    },
+    {
+      "rod": "V339_Right_ELEVON_PUSHROD_REFERENCE_WIP",
+      "intersecting_meshes": 70,
+      "hits": [
+        {
+          "object": "LEFT_AILERON_HORN_PLACEHOLDER",
+          "triangle_pairs": 256
+        },
+        {
+          "object": "RIGHT_AILERON_HORN_PLACEHOLDER",
+          "triangle_pairs": 256
+        },
+        {
+          "object": "50 Access panel screw",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.001",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.002",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "50 Access panel screw.003",
+          "triangle_pairs": 113
+        },
+        {
+          "object": "v301 Cockpit flange L",
+          "triangle_pairs": 104
+        },
+        {
+          "object": "v301 Cockpit flange R",
+          "triangle_pairs": 104
+        },
+        {
+          "object": "41 Arch inclined arm",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "41 Arch inclined arm.001",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "42 Arch top brace",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "43 Brushless motor",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "44 Orange bell",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "45 Prop spindle",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_HINGE_AXIS_REFERENCE",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_PUSHROD_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "LEFT_AILERON_SERVO_PLACEHOLDER",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_-61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_-61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_BOSS_PLACEHOLDER_61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_-61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_-61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_61_-30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "M3_FASTENER_PLACEHOLDER_61_30",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "POD_BASE_150x85x40_WALL3",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_FOIL_BLADE_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_MOUNTING_TOP_PLATE_WIP",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_PIN_PLACEHOLDER_-10",
+          "triangle_pairs": 96
+        },
+        {
+          "object": "PORT_PIN_PLACEHOLDER_10",
+          "triangle_pairs": 96
+        }
+      ]
+    }
+  ],
+  "accepted": false,
+  "limitations": [
+    "reference pushrods are provisional, not connected with clevises",
+    "BVH overlap is a screening method only and can miss contained solids",
+    "no angle sweep or servo travel kinematics",
+    "no structural attachment of hinges, trays or horns",
+    "no image-registered master comparison or land-water-air acceptance"
+  ]
+}
