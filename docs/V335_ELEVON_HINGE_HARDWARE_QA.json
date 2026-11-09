@@ -1,0 +1,77 @@
+{
+  "version": "v335",
+  "prototype_only": true,
+  "knuckles": [
+    {
+      "side": "Left",
+      "owner": "FIXED",
+      "knuckle": 0,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    },
+    {
+      "side": "Left",
+      "owner": "MOVING",
+      "knuckle": 1,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    },
+    {
+      "side": "Left",
+      "owner": "FIXED",
+      "knuckle": 2,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    },
+    {
+      "side": "Right",
+      "owner": "FIXED",
+      "knuckle": 0,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    },
+    {
+      "side": "Right",
+      "owner": "MOVING",
+      "knuckle": 1,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    },
+    {
+      "side": "Right",
+      "owner": "FIXED",
+      "knuckle": 2,
+      "nonmanifold_edges": 0,
+      "bore_diameter_mm": 2.9,
+      "outer_diameter_mm": 5.8,
+      "length_mm": 14
+    }
+  ],
+  "stl_exports": [
+    "stl\\v335\\V335_Left_FIXED_ELEVON_KNUCKLE_0.stl",
+    "stl\\v335\\V335_Left_MOVING_ELEVON_KNUCKLE_1.stl",
+    "stl\\v335\\V335_Left_FIXED_ELEVON_KNUCKLE_2.stl",
+    "stl\\v335\\V335_Left_ELEVON_PIN_2p4mm.stl",
+    "stl\\v335\\V335_Right_FIXED_ELEVON_KNUCKLE_0.stl",
+    "stl\\v335\\V335_Right_MOVING_ELEVON_KNUCKLE_1.stl",
+    "stl\\v335\\V335_Right_FIXED_ELEVON_KNUCKLE_2.stl",
+    "stl\\v335\\V335_Right_ELEVON_PIN_2p4mm.stl"
+  ],
+  "limitations": [
+    "bearing sleeves and pins not yet structurally joined to original elevon and fixed wing",
+    "hinge axis inferred from CAD, not verified against image",
+    "clearance 0.25mm radial nominal; printing tolerance unverified",
+    "servo mounts, horns, linkages, collision sweep, loads, flight tests remain open"
+  ],
+  "accepted": false
+}
