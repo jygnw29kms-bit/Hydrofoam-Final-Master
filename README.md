@@ -24,11 +24,11 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v328 (WIP)
+## Aktueller Konstruktionsstand: v330 (WIP)
 
-![Hydrofoam v328 Blender Modell mit 10 Seitenruder-Scharnierhuelsen und zwei Achsen](renders/v328/twin_rudder_hinge_knuckles_iso.png)
+![Hydrofoam v330 Blender Modell mit symmetrisch rekonstruierten Leitwerksausschnitten](renders/v330/symmetric_twin_fin_cut_iso.png)
 
-**Bauabschnitt 01:** Je Leitwerksseite 5 wechselweise zugeordnete Scharnierhuelsen und ein Achsreferenz-Pin. 10/10 Huelsen haben geschlossene Mesh-Topologie. **Huelsen sind noch nicht tragend mit Flosse/Ruder verbunden, Achsen und Spiel nicht validiert.** [QA v328](docs/V328_RUDDER_HINGE_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
+**Bauabschnitt 01:** Die fehlerhafte linke Flosse wurde aus dem topologisch sauberen rechten Ausschnitt gespiegelt neu aufgebaut. Beide Flossen: **0 nicht-manifold Kanten**. Beide rechteckigen Seitenruder-Prototypen: **keine BVH-Dreiecksueberschneidung mit festen Flossen bei -25 bis +25 Grad (5-Grad-Schritte)**; bei +/-30 Grad bestehen Kollisionen. Scharnierhuelsen/Gestaenge und reale Spaltmasse noch nicht geprueft. [QA v330](docs/V330_MIRRORED_FIN_REBUILD_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
 
 Original-Final-Master-Bild unveraendert. LAND/WASSER/LUFT noch nicht abgenommen.
 

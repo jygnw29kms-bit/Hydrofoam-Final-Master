@@ -1,0 +1,131 @@
+{
+  "version": "v330",
+  "operation": "rebuild left fixed-fin cut by world-mirroring clean right fin mesh; preserve twin rudder prototypes and hinges",
+  "results": [
+    {
+      "side": "Left",
+      "fin_nonmanifold_edges": 0,
+      "sweep": [
+        {
+          "degrees": -30,
+          "triangle_intersections": 8
+        },
+        {
+          "degrees": -25,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -20,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -15,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -10,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -5,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 0,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 5,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 10,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 15,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 20,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 25,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 30,
+          "triangle_intersections": 8
+        }
+      ],
+      "clear_at_25": true
+    },
+    {
+      "side": "Right",
+      "fin_nonmanifold_edges": 0,
+      "sweep": [
+        {
+          "degrees": -30,
+          "triangle_intersections": 8
+        },
+        {
+          "degrees": -25,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -20,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -15,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -10,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": -5,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 0,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 5,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 10,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 15,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 20,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 25,
+          "triangle_intersections": 0
+        },
+        {
+          "degrees": 30,
+          "triangle_intersections": 8
+        }
+      ],
+      "clear_at_25": true
+    }
+  ],
+  "accepted": false,
+  "limitations": [
+    "mirrored cut still has nonzero collision at +/-30 deg",
+    "triangle BVH not full solid penetration or minimum-clearance analysis",
+    "hinge sleeves are still detached from parent surfaces",
+    "verify final master silhouette and print-fit"
+  ]
+}
