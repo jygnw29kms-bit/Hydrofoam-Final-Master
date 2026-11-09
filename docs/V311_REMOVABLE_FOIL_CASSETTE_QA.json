@@ -1,0 +1,23 @@
+{
+  "version": "v311",
+  "status": "prototype only; NOT dimensioned or flight approved",
+  "assembly": "two removable foil cassette subassemblies",
+  "per_side": [
+    "foil blade",
+    "mast",
+    "mounting plate",
+    "wear insert",
+    "two pin placeholders"
+  ],
+  "manufacturing_blockers": [
+    "actual hull hardpoint geometry",
+    "scale calibration",
+    "structural pin shear sizing",
+    "water seal",
+    "foil hydrodynamic sizing",
+    "ground clearance verification",
+    "P2S printable split and tolerances"
+  ],
+  "land_mode": "foil cassettes removed; no deployed foil permitted",
+  "note": "detached visualization only; no functional lock mechanism validated"
+}
