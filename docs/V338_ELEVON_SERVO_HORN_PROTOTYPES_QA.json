@@ -1,0 +1,46 @@
+{
+  "version": "v338",
+  "stage": "printable elevon servo-tray and control-horn geometry prototypes",
+  "parts": [
+    {
+      "side": "Left",
+      "part": "V338_Left_SERVO_TRAY_WIP",
+      "nonmanifold_edges": 0,
+      "vertices": 16
+    },
+    {
+      "side": "Left",
+      "part": "V338_Left_ELEVON_HORN_WIP",
+      "nonmanifold_edges": 0,
+      "vertices": 206
+    },
+    {
+      "side": "Right",
+      "part": "V338_Right_SERVO_TRAY_WIP",
+      "nonmanifold_edges": 0,
+      "vertices": 16
+    },
+    {
+      "side": "Right",
+      "part": "V338_Right_ELEVON_HORN_WIP",
+      "nonmanifold_edges": 0,
+      "vertices": 206
+    }
+  ],
+  "servo_aperture_mm": [
+    23,
+    12
+  ],
+  "horn_holes_mm": [
+    2.6,
+    2.2
+  ],
+  "accepted": false,
+  "blocking": [
+    "servo geometry and screw mounts not matched to selected hardware",
+    "parts not yet structurally united to existing wing/elevon meshes",
+    "no pushrod, load, articulation, or clearance validation",
+    "visual master image comparison not accepted",
+    "land water air modes untested"
+  ]
+}
