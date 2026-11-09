@@ -24,27 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktuelle CAD-Ansichten: v316 (WIP)
+## Aktueller Konstruktionsstand: v317 (WIP)
 
-**Linke Seitenansicht**
+![Hydrofoam v317, reale Blender-Baugruppe mit Querruder- und Seitenruder-Anlenkungen](renders/v317/ailerons_rudder_linkages_iso.png)
 
-![Hydrofoam v316 linke Seitenansicht](renders/v316/left_orthographic.png)
+**Neu:** Zwei Querruder-Servos, Seitenruder-Servo, Gestange und Ruderhoerner als konstruktive Platzhalter. Die Mechanik ist noch nicht kinematisch oder auf Belastbarkeit freigegeben. [QA Ruderanlenkungen](docs/V317_CONTROL_LINKAGE_QA.json).
 
-**Rechte Seitenansicht**
-
-![Hydrofoam v316 rechte Seitenansicht](renders/v316/right_orthographic.png)
-
-**Draufsicht und Unterseite**
-
-![Hydrofoam v316 Draufsicht](renders/v316/top_orthographic.png)
-
-![Hydrofoam v316 Unterseite](renders/v316/bottom_orthographic.png)
-
-**Aktuelle Dichtungsnut-Konstruktion v314**
-
-![Elektronikgehaeuse v314](renders/v314/lid_groove_detail.png)
-
-Die sechs orthografischen Ansichten sind echte Blender-Renderings der bestehenden Geometrie. Keine finale Wasser-, Land- oder Flugfreigabe. Abnehmbare Foils und Elektronikgehaeuse sind in den Silhouettenansichten ausgeblendet. [Ansichtsbericht](docs/V316_ORTHOGRAPHIC_VIEWS_QA.json). Original-Final-Master unveraendert.
+**Geometrieansichten v316:** [links](renders/v316/left_orthographic.png), [rechts](renders/v316/right_orthographic.png), [oben](renders/v316/top_orthographic.png), [unten](renders/v316/bottom_orthographic.png). Das originale Final-Master-Bild bleibt unveraendert.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_END -->
 

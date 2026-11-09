@@ -1,0 +1,17 @@
+{
+  "version": "v317",
+  "status": "WIP control-linkage packaging, NOT kinematically validated",
+  "aileron": "two independent servo placeholders, symmetric horn and pushrod references",
+  "rudder": "one servo placeholder, horn and pushrod reference",
+  "critical_blockers": [
+    "measure true aileron and rudder hinge axes",
+    "verify each pushrod clears airframe at full travel",
+    "determine linkage mechanical advantage and control throw",
+    "size servo torque from aerodynamic hinge moments",
+    "select water-protected servo and sealed linkage exits",
+    "printable horns with reinforced pivot bores",
+    "check CG impact, wiring and receiver mixing",
+    "rudder linkage may require redesign to avoid vertical fin interference"
+  ],
+  "modes": "LAND+WATER+AIR still unverified"
+}
