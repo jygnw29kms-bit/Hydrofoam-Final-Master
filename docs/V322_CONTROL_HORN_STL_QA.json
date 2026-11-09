@@ -1,0 +1,47 @@
+{
+  "version": "v322",
+  "section": "01 Ruderanlenkungen",
+  "result": "Three STL prototypes exported; NOT PRINT-READY",
+  "files": [
+    {
+      "name": "LEFT_AILERON_HORN_PLACEHOLDER",
+      "file": "stl/v322_control_horns_WIP/LEFT_AILERON_HORN_PLACEHOLDER.stl",
+      "size_bytes": 10484,
+      "nonmanifold_edges": 0,
+      "dimensions_model_units": [
+        4.0,
+        9.0,
+        18.0
+      ]
+    },
+    {
+      "name": "RIGHT_AILERON_HORN_PLACEHOLDER",
+      "file": "stl/v322_control_horns_WIP/RIGHT_AILERON_HORN_PLACEHOLDER.stl",
+      "size_bytes": 10484,
+      "nonmanifold_edges": 0,
+      "dimensions_model_units": [
+        4.0,
+        9.0,
+        18.0
+      ]
+    },
+    {
+      "name": "RUDDER_HORN_12P5MM_PROTOTYPE",
+      "file": "stl/v322_control_horns_WIP/RUDDER_HORN_12P5MM_PROTOTYPE.stl",
+      "size_bytes": 10484,
+      "nonmanifold_edges": 0,
+      "dimensions_model_units": [
+        4.0,
+        11.0,
+        14.5
+      ]
+    }
+  ],
+  "limitations": [
+    "STL unit scale not independently calibrated",
+    "2.2 bore dimensions not independently measured",
+    "no print orientation, strength, tolerances or physical fit",
+    "servo travel and collision still untested"
+  ],
+  "acceptance": false
+}
