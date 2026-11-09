@@ -1,0 +1,38 @@
+{
+  "version": "v334",
+  "type": "evidence-only acceptance gate",
+  "reference_sha256_actual": "a4d3199bae23965fbd9e3c7f761e8e55e2911e5634889f670fea32a92b7007fd",
+  "checks": {
+    "reference_sha256": true,
+    "twin_fins_manifold": true,
+    "rudder_clear_at_plus_minus_25": true,
+    "rudder_clear_at_plus_minus_30": false,
+    "hinge_bridges_manifold": true,
+    "hinge_bridges_joined_to_parent": false,
+    "elevon_physical_hinges_verified": false,
+    "flight_ready": false,
+    "water_ready": false,
+    "land_ready": false
+  },
+  "passed": [
+    "reference_sha256",
+    "twin_fins_manifold",
+    "rudder_clear_at_plus_minus_25",
+    "hinge_bridges_manifold"
+  ],
+  "blocked": [
+    "rudder_clear_at_plus_minus_30",
+    "hinge_bridges_joined_to_parent",
+    "elevon_physical_hinges_verified",
+    "flight_ready",
+    "water_ready",
+    "land_ready"
+  ],
+  "notes": [
+    "BVH triangle intersections do not prove physical clearance.",
+    "No real land, water or flight tests have been supplied.",
+    "No servo torque, structural load, mass, thrust or watertightness validation.",
+    "Do not label this model Final Master or replace README master imagery."
+  ],
+  "accepted": false
+}
