@@ -1,0 +1,56 @@
+{
+  "version": "v321",
+  "section": "01 control horns",
+  "results": [
+    {
+      "name": "LEFT_AILERON_HORN_PLACEHOLDER",
+      "vertices": 104,
+      "faces": 56,
+      "dimensions_model_units": [
+        4.0,
+        9.0,
+        18.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "watertight_mesh": true
+    },
+    {
+      "name": "RIGHT_AILERON_HORN_PLACEHOLDER",
+      "vertices": 104,
+      "faces": 56,
+      "dimensions_model_units": [
+        4.0,
+        9.0,
+        18.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "watertight_mesh": true
+    },
+    {
+      "name": "RUDDER_HORN_12P5MM_PROTOTYPE",
+      "vertices": 104,
+      "faces": 56,
+      "dimensions_model_units": [
+        4.0,
+        11.0,
+        14.5
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "watertight_mesh": true
+    }
+  ],
+  "note": "mesh manifold check only; not dimensional bore or structural fit proof",
+  "section_accepted": false,
+  "remaining": [
+    "validate bore diameter from actual mesh",
+    "place pivots on actual hinge axes",
+    "servo clearance and full movement sweep",
+    "physical load and watertightness tests"
+  ]
+}
