@@ -1,0 +1,89 @@
+{
+  "version": "v337",
+  "status": "five alternating physical bearing prototypes",
+  "sides": [
+    {
+      "side": "Left",
+      "knuckles": [
+        {
+          "name": "V337_Left_FIXED_ELEVON_KNUCKLE_0",
+          "owner": "FIXED",
+          "station": 0.16,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Left_MOVING_ELEVON_KNUCKLE_1",
+          "owner": "MOVING",
+          "station": 0.33,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Left_FIXED_ELEVON_KNUCKLE_2",
+          "owner": "FIXED",
+          "station": 0.5,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Left_MOVING_ELEVON_KNUCKLE_3",
+          "owner": "MOVING",
+          "station": 0.67,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Left_FIXED_ELEVON_KNUCKLE_4",
+          "owner": "FIXED",
+          "station": 0.84,
+          "nonmanifold_edges": 0
+        }
+      ],
+      "min_axial_gap_mm": 4.361,
+      "nominal_radial_clearance_mm": 0.25,
+      "pin_diameter_mm": 2.4
+    },
+    {
+      "side": "Right",
+      "knuckles": [
+        {
+          "name": "V337_Right_FIXED_ELEVON_KNUCKLE_0",
+          "owner": "FIXED",
+          "station": 0.16,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Right_MOVING_ELEVON_KNUCKLE_1",
+          "owner": "MOVING",
+          "station": 0.33,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Right_FIXED_ELEVON_KNUCKLE_2",
+          "owner": "FIXED",
+          "station": 0.5,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Right_MOVING_ELEVON_KNUCKLE_3",
+          "owner": "MOVING",
+          "station": 0.67,
+          "nonmanifold_edges": 0
+        },
+        {
+          "name": "V337_Right_FIXED_ELEVON_KNUCKLE_4",
+          "owner": "FIXED",
+          "station": 0.84,
+          "nonmanifold_edges": 0
+        }
+      ],
+      "min_axial_gap_mm": 4.361,
+      "nominal_radial_clearance_mm": 0.25,
+      "pin_diameter_mm": 2.4
+    }
+  ],
+  "accepted": false,
+  "limitations": [
+    "not Boolean-unioned to wing/elevon",
+    "servo mounts/horns/linkages not integrated",
+    "print-fit and full articulation collision not validated",
+    "master image match not validated"
+  ]
+}

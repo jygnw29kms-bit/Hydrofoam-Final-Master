@@ -1,0 +1,106 @@
+{
+  "version": "v336",
+  "scope": "real Blender v335 hinge hardware fit check",
+  "results": [
+    {
+      "side": "Left",
+      "knuckles": [
+        {
+          "name": "V335_Left_FIXED_ELEVON_KNUCKLE_0",
+          "axial_min_mm": 64.818,
+          "axial_max_mm": 78.818,
+          "center_mm": [
+            174.82,
+            -73.44,
+            28.8
+          ]
+        },
+        {
+          "name": "V335_Left_MOVING_ELEVON_KNUCKLE_1",
+          "axial_min_mm": 99.38,
+          "axial_max_mm": 113.38,
+          "center_mm": [
+            174.5,
+            -108.0,
+            28.8
+          ]
+        },
+        {
+          "name": "V335_Left_FIXED_ELEVON_KNUCKLE_2",
+          "axial_min_mm": 133.941,
+          "axial_max_mm": 147.941,
+          "center_mm": [
+            174.18,
+            -142.56,
+            28.8
+          ]
+        }
+      ],
+      "axial_gaps_mm": [
+        20.562,
+        20.561
+      ],
+      "axial_noninterference": true,
+      "nominal_radial_clearance_mm": 0.25,
+      "pin_length_mm": 112.056,
+      "pin_present": true
+    },
+    {
+      "side": "Right",
+      "knuckles": [
+        {
+          "name": "V335_Right_FIXED_ELEVON_KNUCKLE_0",
+          "axial_min_mm": 64.818,
+          "axial_max_mm": 78.818,
+          "center_mm": [
+            174.82,
+            73.44,
+            28.8
+          ]
+        },
+        {
+          "name": "V335_Right_MOVING_ELEVON_KNUCKLE_1",
+          "axial_min_mm": 99.38,
+          "axial_max_mm": 113.38,
+          "center_mm": [
+            174.5,
+            108.0,
+            28.8
+          ]
+        },
+        {
+          "name": "V335_Right_FIXED_ELEVON_KNUCKLE_2",
+          "axial_min_mm": 133.941,
+          "axial_max_mm": 147.941,
+          "center_mm": [
+            174.18,
+            142.56,
+            28.8
+          ]
+        }
+      ],
+      "axial_gaps_mm": [
+        20.562,
+        20.561
+      ],
+      "axial_noninterference": true,
+      "nominal_radial_clearance_mm": 0.25,
+      "pin_length_mm": 112.056,
+      "pin_present": true
+    }
+  ],
+  "acceptance": {
+    "axial_noninterference": true,
+    "both_pins_exist": true,
+    "structural_parent_union": false,
+    "servo_linkage_sweep": false,
+    "real_print_fit": false
+  },
+  "limitations": [
+    "Axial gap uses CAD geometry only, not manufacturing tolerance",
+    "Pin fit is nominal; STL and printed dimensions not yet measured",
+    "Hinge knuckles are not attached to parent surfaces",
+    "No collision sweep of complete moving elevon, horns or linkage"
+  ],
+  "accepted": false
+}
