@@ -1,0 +1,64 @@
+{
+  "version": "v324",
+  "section": "01",
+  "change": "added two discrete rudder surface meshes and independent hinge pin references",
+  "rudders": [
+    {
+      "side": "Left",
+      "fin_bounds": [
+        [
+          145.0,
+          220.0
+        ],
+        [
+          -184.0,
+          -181.0
+        ],
+        [
+          30.0,
+          112.0
+        ]
+      ],
+      "rudder_dimensions": [
+        18.0,
+        3.2,
+        66.0
+      ],
+      "hinge_x": 201.0,
+      "note": "separate overlapping reference geometry; fixed fin has NOT been physically cut"
+    },
+    {
+      "side": "Right",
+      "fin_bounds": [
+        [
+          145.0,
+          220.0
+        ],
+        [
+          181.0,
+          184.0
+        ],
+        [
+          30.0,
+          112.0
+        ]
+      ],
+      "rudder_dimensions": [
+        18.0,
+        3.2,
+        66.0
+      ],
+      "hinge_x": 201.0,
+      "note": "separate overlapping reference geometry; fixed fin has NOT been physically cut"
+    }
+  ],
+  "status": "WIP",
+  "blocking": [
+    "fixed fins still overlap rudder geometry and must be Boolean split",
+    "hinge pivot locations not validated against actual airfoil",
+    "surface travel and collision envelope not physically animated",
+    "servo horns/rods not attached to surfaces",
+    "water protection and flight loads unknown"
+  ],
+  "accepted": false
+}

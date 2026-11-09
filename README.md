@@ -24,13 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v323 (WIP)
+## Aktueller Konstruktionsstand: v324 (WIP)
 
-![Hydrofoam v323 Blender Gesamtmodell mit zwei separaten Leitwerks-Servo-Anlenkungen](renders/v323/twin_fin_rudder_layout_iso.png)
+![Hydrofoam v324 echtes Blender-Modell mit zwei separaten Seitenruderflaechen und Scharnierreferenzen](renders/v324/movable_rudder_surfaces_iso.png)
 
-**Bauabschnitt 01:** Zwei symmetrische Seitenruder-Servo- und Gestange-Einbaustudien an den tatsaechlichen Leitwerksflossen. Der bisherige mittige Ruderservo-Entwurf wurde ausgeblendet. **Die Ruderflaechen sind noch nicht getrennt, Gelenke und Bewegungen noch nicht validiert.** [QA v323](docs/V323_TWIN_RUDDER_LAYOUT_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
+**Bauabschnitt 01:** Zwei getrennte Seitenruder-Meshes (je 18 x 3,2 x 66 Modell-Einheiten) und zwei Scharnierachsen-Referenzen an den Zwillingsleitwerken. **Die starren Flossen ueberlappen diese WIP-Ruder noch; es sind noch keine ausgeschnittenen, bewegungsgeprueften Scharnierbaugruppen.** [QA v324](docs/V324_MOVABLE_RUDDER_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
 
-Original-Final-Master-Bild unveraendert. **LAND / WASSER / LUFT** noch nicht funktionsgeprueft.
+Original-Final-Master-Bild unveraendert. LAND/WASSER/LUFT noch nicht abgenommen.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_END -->
 
