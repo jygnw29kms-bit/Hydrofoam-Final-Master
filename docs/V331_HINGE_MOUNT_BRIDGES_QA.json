@@ -1,0 +1,83 @@
+{
+  "version": "v331",
+  "operation": "build and Boolean-union ten radial hinge-to-body bridge tabs into hinge sleeves",
+  "results": [
+    {
+      "side": "Left",
+      "index": 0,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Left",
+      "index": 1,
+      "kind": "MOVING_RUDDER",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Left",
+      "index": 2,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Left",
+      "index": 3,
+      "kind": "MOVING_RUDDER",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Left",
+      "index": 4,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Right",
+      "index": 0,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Right",
+      "index": 1,
+      "kind": "MOVING_RUDDER",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Right",
+      "index": 2,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Right",
+      "index": 3,
+      "kind": "MOVING_RUDDER",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    },
+    {
+      "side": "Right",
+      "index": 4,
+      "kind": "FIXED_FIN",
+      "sleeve_with_bridge_nonmanifold": 0,
+      "note": "bridge attached to sleeve only; body union pending"
+    }
+  ],
+  "accepted": false,
+  "blocking": [
+    "bridge tabs not yet Boolean-unioned into fin/rudder parent bodies",
+    "validate tabs do not block moving surfaces",
+    "verify sleeve bore stays open and fits pin",
+    "load and print-orientation testing"
+  ]
+}

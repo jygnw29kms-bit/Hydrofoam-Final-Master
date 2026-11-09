@@ -24,11 +24,11 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v330 (WIP)
+## Aktueller Konstruktionsstand: v331 (WIP)
 
-![Hydrofoam v330 Blender Modell mit symmetrisch rekonstruierten Leitwerksausschnitten](renders/v330/symmetric_twin_fin_cut_iso.png)
+![Hydrofoam v331 Blender Modell mit zehn Scharnierhuelsen und angeformten Bruecken](renders/v331/hinge_mount_bridges_iso.png)
 
-**Bauabschnitt 01:** Die fehlerhafte linke Flosse wurde aus dem topologisch sauberen rechten Ausschnitt gespiegelt neu aufgebaut. Beide Flossen: **0 nicht-manifold Kanten**. Beide rechteckigen Seitenruder-Prototypen: **keine BVH-Dreiecksueberschneidung mit festen Flossen bei -25 bis +25 Grad (5-Grad-Schritte)**; bei +/-30 Grad bestehen Kollisionen. Scharnierhuelsen/Gestaenge und reale Spaltmasse noch nicht geprueft. [QA v330](docs/V330_MIRRORED_FIN_REBUILD_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
+**Bauabschnitt 01:** Zehn Scharnierhuelsen mit je einer per Boolean vereinigten Befestigungsbruecke modelliert. **10/10 resultierende Huelsen-Meshes topologisch geschlossen.** Die Bruecken sind noch nicht mit den Flossen/Ruderkoerpern vereint und nicht belastungs- oder bewegungsgeprueft. [QA v331](docs/V331_HINGE_MOUNT_BRIDGES_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
 
 Original-Final-Master-Bild unveraendert. LAND/WASSER/LUFT noch nicht abgenommen.
 
