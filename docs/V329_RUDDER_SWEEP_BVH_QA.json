@@ -1,0 +1,132 @@
+{
+  "version": "v329",
+  "purpose": "triangle BVH intersection test of rectangular rudder prototype versus cut fixed fin at 5-degree steps from -30 to +30 degrees",
+  "results": [
+    {
+      "side": "Left",
+      "pivot": [
+        201,
+        -182.5
+      ],
+      "sweep": [
+        {
+          "angle_deg": -30,
+          "triangle_overlap_pairs": 9
+        },
+        {
+          "angle_deg": -25,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": -20,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": -15,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": -10,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": -5,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 0,
+          "triangle_overlap_pairs": 2
+        },
+        {
+          "angle_deg": 5,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 10,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 15,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 20,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 25,
+          "triangle_overlap_pairs": 3
+        },
+        {
+          "angle_deg": 30,
+          "triangle_overlap_pairs": 9
+        }
+      ],
+      "all_clear": false
+    },
+    {
+      "side": "Right",
+      "pivot": [
+        201,
+        182.5
+      ],
+      "sweep": [
+        {
+          "angle_deg": -30,
+          "triangle_overlap_pairs": 8
+        },
+        {
+          "angle_deg": -25,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": -20,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": -15,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": -10,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": -5,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 0,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 5,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 10,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 15,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 20,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 25,
+          "triangle_overlap_pairs": 0
+        },
+        {
+          "angle_deg": 30,
+          "triangle_overlap_pairs": 8
+        }
+      ],
+      "all_clear": false
+    }
+  ],
+  "caution": "zero surface triangle intersections does not rule out containment, hinge sleeve collisions, dynamic linkage collisions or inadequate mechanical clearance",
+  "accepted": false
+}
