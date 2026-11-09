@@ -1,0 +1,98 @@
+[
+  {
+    "file": "gasket_left_front_1.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_left_front_2.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_left_rear_1.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_left_rear_2.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_right_front_1.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_right_front_2.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_right_rear_1.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  },
+  {
+    "file": "gasket_right_rear_2.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "volume_mm3": 34.937,
+    "extents_mm": [
+      10.0,
+      10.0,
+      0.5
+    ]
+  }
+]
