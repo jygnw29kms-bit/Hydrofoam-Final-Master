@@ -1,0 +1,15 @@
+{
+  "stage": "v312 mounting interface data gate",
+  "survey_file": "docs\\V310_MOUNTING_RAY_SURVEY.json",
+  "checked_holes": 8,
+  "data_gate_pass": false,
+  "mechanical_approval": false,
+  "sealing_approval": false,
+  "foil_ground_clearance_approval": false,
+  "issues": [
+    "left/front/1: >1 mm local variation, inspect mounting interface",
+    "left/rear/2: >1 mm local variation, inspect mounting interface",
+    "right/front/1: >1 mm local variation, inspect mounting interface",
+    "right/rear/2: >1 mm local variation, inspect mounting interface"
+  ]
+}
