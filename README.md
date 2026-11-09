@@ -24,13 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v317 (WIP)
+## Aktueller Konstruktionsstand v317: Aileron- und Rudder-Anlenkungen (WIP)
 
-![Hydrofoam v317, reale Blender-Baugruppe mit Querruder- und Seitenruder-Anlenkungen](renders/v317/ailerons_rudder_linkages_iso.png)
+![Echter Blender-Screenshot v317 mit symmetrischen Aileron-Servoplatzhaltern und Rudder-Anlenkung](renders/v317/ailerons_rudder_linkages_iso.png)
 
-**Neu:** Zwei Querruder-Servos, Seitenruder-Servo, Gestange und Ruderhoerner als konstruktive Platzhalter. Die Mechanik ist noch nicht kinematisch oder auf Belastbarkeit freigegeben. [QA Ruderanlenkungen](docs/V317_CONTROL_LINKAGE_QA.json).
+Zwei getrennte Aileron-Servos und eine Rudder-Anlenkung sind als **Positionierungs- und Kinematik-Prototyp** in der echten CAD-Baugruppe angelegt. Scharnierachsen, Hebelwege, Kollisionsfreiheit und Servodrehmoment sind **noch nicht validiert**. Keine Freigabe fuer Land/Wasser/Luft oder Wasserdichtigkeit. [Pruefbericht](docs/V317_CONTROL_LINKAGE_QA.json).
 
-**Geometrieansichten v316:** [links](renders/v316/left_orthographic.png), [rechts](renders/v316/right_orthographic.png), [oben](renders/v316/top_orthographic.png), [unten](renders/v316/bottom_orthographic.png). Das originale Final-Master-Bild bleibt unveraendert.
+**Orthografische Vergleichsansichten v316:** [links](renders/v316/left_orthographic.png) | [rechts](renders/v316/right_orthographic.png) | [oben](renders/v316/top_orthographic.png) | [unten](renders/v316/bottom_orthographic.png). Das unveraenderte Original-Final-Master-Bild bleibt oben.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_END -->
 
