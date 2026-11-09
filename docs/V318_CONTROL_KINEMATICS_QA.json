@@ -1,0 +1,43 @@
+{
+  "version": "v318",
+  "study": "preliminary servo linkage travel sizing",
+  "servo_arm_mm": 10.0,
+  "control_horn_mm": 15.0,
+  "servo_sweep_each_direction_deg": 35.0,
+  "estimated_linear_stroke_mm": 5.736,
+  "estimated_surface_deflection_deg": 22.48,
+  "checks": [
+    {
+      "axis": "aileron_up",
+      "design_target_deg": 20,
+      "idealized_available_deg": 22.48,
+      "idealized_pass": true
+    },
+    {
+      "axis": "aileron_down",
+      "design_target_deg": 15,
+      "idealized_available_deg": 22.48,
+      "idealized_pass": true
+    },
+    {
+      "axis": "rudder",
+      "design_target_deg": 25,
+      "idealized_available_deg": 22.48,
+      "idealized_pass": false
+    }
+  ],
+  "assumptions": [
+    "perfect perpendicular pushrod, no lost motion",
+    "identical control horn geometry on aileron and rudder",
+    "no servo endpoint restrictions or hinge-offset correction",
+    "target deflections are provisional engineering inputs, not flight-proven"
+  ],
+  "blockers": [
+    "measure actual hinge and horn geometry from CAD",
+    "kinematic collision sweep at +/- travel",
+    "hinge-moment torque and servo selection",
+    "sealed linkage penetration",
+    "CG and mode-specific ground/water clearance"
+  ],
+  "certification": "NOT VALIDATED"
+}
