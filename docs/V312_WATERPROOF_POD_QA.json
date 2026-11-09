@@ -1,0 +1,21 @@
+{
+  "version": "v312",
+  "status": "CAD waterproofing concept; not leak-tested",
+  "design": "150x85x40 mm enclosure with 3 mm nominal walls, removable lid, four seal-strip placeholders and four fastener bosses",
+  "known_failures": [
+    "seal corners are not continuous or tested",
+    "no verified gasket compression or material",
+    "fastener holes not machined",
+    "cable glands and vent not designed",
+    "no fit check with center hull",
+    "no IP rating",
+    "no pressure immersion test"
+  ],
+  "requirements_before_watertight_claim": [
+    "continuous perimeter groove and closed-loop gasket",
+    "measured compression and flange stiffness",
+    "threaded insert seals",
+    "cable gland penetration seals",
+    "submersion and pressure test with electronics absent"
+  ]
+}
