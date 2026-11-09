@@ -1,0 +1,9 @@
+{
+  "version": "v310",
+  "status": "WIP conceptual mechanical packaging, not verified",
+  "reference_base_z": -15.327503204345703,
+  "foil_below_skid_mm_assuming_mm_units": 34,
+  "land_mode": "FAIL: deployed foils intersect ground reference; retraction/removal mandatory",
+  "geometry": "two detachable foil/strut mockups, ground plane and skid references",
+  "next": "measure v309 assembly scale and attachment hardpoints; engineer actual retractable mechanism"
+}
