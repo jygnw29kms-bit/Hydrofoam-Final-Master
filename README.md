@@ -24,13 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand v317: Aileron- und Rudder-Anlenkungen (WIP)
+## Aktueller Konstruktionsstand: v319 (WIP)
 
-![Echter Blender-Screenshot v317 mit symmetrischen Aileron-Servoplatzhaltern und Rudder-Anlenkung](renders/v317/ailerons_rudder_linkages_iso.png)
+![Hydrofoam v319 Blender-Modell mit Rudergestaengen und optimiertem Seitenruder-Horn-Prototyp](renders/v319/rudder_horn_optimized_iso.png)
 
-Zwei getrennte Aileron-Servos und eine Rudder-Anlenkung sind als **Positionierungs- und Kinematik-Prototyp** in der echten CAD-Baugruppe angelegt. Scharnierachsen, Hebelwege, Kollisionsfreiheit und Servodrehmoment sind **noch nicht validiert**. Keine Freigabe fuer Land/Wasser/Luft oder Wasserdichtigkeit. [Pruefbericht](docs/V317_CONTROL_LINKAGE_QA.json).
+**Neu:** Seitenruderhorn-Prototyp angepasst. Rechnerischer idealisierter Ausschlag 27,31 Grad bei 10-mm-Servohebel, 12,5-mm-effektivem Ruderhorn und +/-35 Grad Servoweg. **Noch keine reale Kinematik- oder Kollisionsfreigabe.** [QA v319](docs/V319_RUDDER_HORN_OPTIMIZATION_QA.json).
 
-**Orthografische Vergleichsansichten v316:** [links](renders/v316/left_orthographic.png) | [rechts](renders/v316/right_orthographic.png) | [oben](renders/v316/top_orthographic.png) | [unten](renders/v316/bottom_orthographic.png). Das unveraenderte Original-Final-Master-Bild bleibt oben.
+**Geometrieansichten v316:** [links](renders/v316/left_orthographic.png), [rechts](renders/v316/right_orthographic.png), [oben](renders/v316/top_orthographic.png), [unten](renders/v316/bottom_orthographic.png). Das originale Final-Master-Bild bleibt unveraendert.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_END -->
 

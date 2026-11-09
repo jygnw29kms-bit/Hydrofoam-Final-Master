@@ -1,0 +1,18 @@
+{
+  "version": "v319",
+  "change": "rudder horn effective lever reduced from 15 to 12.5 mm (geometric placeholder revised)",
+  "servo_arm_mm": 10,
+  "rudder_horn_effective_arm_mm": 12.5,
+  "servo_travel_each_side_deg": 35,
+  "idealized_pushrod_stroke_mm": 5.736,
+  "idealized_rudder_deflection_deg": 27.31,
+  "rudder_target_deg": 25,
+  "first_order_pass": true,
+  "limitations": [
+    "actual effective lever is not established by mesh dimensions alone",
+    "servo horn and rudder horn pin holes not engineered",
+    "rod length/angles must be rebuilt for physical geometry",
+    "no collision sweep or hinge moment check",
+    "not production-ready"
+  ]
+}
