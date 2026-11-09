@@ -23,6 +23,15 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
+<!-- CURRENT_CONSTRUCTION_RENDER_START -->
+## Aktueller Konstruktions-Screenshot: v312 (WIP)
+
+![Hydrofoam v312: echter Blender-Render mit Elektronikgehaeuse und Foil-Prototypen](renders/v312/electronics_pod_exploded_iso.png)
+
+**Stand v312:** Das Elektronikgehaeuse und die Foils sind separate Prototypen, noch nicht eingepasst oder wasserdicht getestet. Keine Druck-, Wasser- oder Flugfreigabe. [QA-Bericht](docs/V312_WATERPROOF_POD_QA.json). Das Original-Final-Master-Bild oben bleibt unveraendert.
+
+<!-- CURRENT_CONSTRUCTION_RENDER_END -->
+
 ## Aktueller technischer Modellstand: v305 (WIP)
 
 **Blender-Gesamtbaugruppe, noch keine Final-/Flug- oder Druckfreigabe.**
