@@ -1,0 +1,70 @@
+{
+  "version": "v323",
+  "change": "replace inaccurate central rudder control mockup with two separate twin-fin rudder linkage packaging layouts",
+  "fin_reference": [
+    {
+      "side": "Left",
+      "fin_world_bounds": [
+        [
+          145.0,
+          220.0
+        ],
+        [
+          -184.0,
+          -181.0
+        ],
+        [
+          30.0,
+          112.0
+        ]
+      ],
+      "servo_position": [
+        174.0,
+        -182.5,
+        54.0
+      ],
+      "horn_position": [
+        212.0,
+        -182.5,
+        60.0
+      ],
+      "hinge_x_assumed": 220.0
+    },
+    {
+      "side": "Right",
+      "fin_world_bounds": [
+        [
+          145.0,
+          220.0
+        ],
+        [
+          181.0,
+          184.0
+        ],
+        [
+          30.0,
+          112.0
+        ]
+      ],
+      "servo_position": [
+        174.0,
+        182.5,
+        54.0
+      ],
+      "horn_position": [
+        212.0,
+        182.5,
+        60.0
+      ],
+      "hinge_x_assumed": 220.0
+    }
+  ],
+  "status": "WIP only",
+  "limitations": [
+    "fin trailing-edge x assumed from bounds; actual hinge and movable rudder geometry not yet defined",
+    "rudder surfaces not cut from fins",
+    "rods are visual alignment references not moving kinematic assemblies",
+    "servo torque, collisions, mass and sealing not verified"
+  ],
+  "build_section_01_accepted": false
+}
