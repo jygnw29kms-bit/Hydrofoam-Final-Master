@@ -24,13 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v319 (WIP)
+## Aktueller Konstruktionsstand: v320 (WIP)
 
-![Hydrofoam v319 Blender-Modell mit Rudergestaengen und optimiertem Seitenruder-Horn-Prototyp](renders/v319/rudder_horn_optimized_iso.png)
+![Hydrofoam v320 echtes Blender-Gesamtmodell mit drei gebohrten Ruderhorn-Prototypen](renders/v320/control_horn_bores_iso.png)
 
-**Neu:** Seitenruderhorn-Prototyp angepasst. Rechnerischer idealisierter Ausschlag 27,31 Grad bei 10-mm-Servohebel, 12,5-mm-effektivem Ruderhorn und +/-35 Grad Servoweg. **Noch keine reale Kinematik- oder Kollisionsfreigabe.** [QA v319](docs/V319_RUDDER_HORN_OPTIMIZATION_QA.json).
+**Neu v320:** Drei Ruderhorn-Prototypen mit per Boolean erzeugten 2,2-mm-Durchgangsbohrungen. Die Anlenkungen sind nicht kinematisch, strukturell oder auf Wasserdichtigkeit abgenommen. [QA v320](docs/V320_LINKAGE_PIN_HOLES_QA.json).
 
-**Geometrieansichten v316:** [links](renders/v316/left_orthographic.png), [rechts](renders/v316/right_orthographic.png), [oben](renders/v316/top_orthographic.png), [unten](renders/v316/bottom_orthographic.png). Das originale Final-Master-Bild bleibt unveraendert.
+**Seitenansichten v316:** [links](renders/v316/left_orthographic.png), [rechts](renders/v316/right_orthographic.png). Original-Final-Master unveraendert. **LAND + WASSER + LUFT** noch nicht nachgewiesen.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_END -->
 

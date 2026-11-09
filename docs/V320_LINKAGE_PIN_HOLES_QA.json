@@ -1,0 +1,34 @@
+{
+  "version": "v320",
+  "change": "boolean through-bores in three control-horn placeholder meshes",
+  "bores": [
+    {
+      "object": "LEFT_AILERON_HORN_PLACEHOLDER",
+      "bore_diameter_model_units": 2.2,
+      "boolean_applied": true,
+      "mesh_vertices": 104
+    },
+    {
+      "object": "RIGHT_AILERON_HORN_PLACEHOLDER",
+      "bore_diameter_model_units": 2.2,
+      "boolean_applied": true,
+      "mesh_vertices": 104
+    },
+    {
+      "object": "RUDDER_HORN_12P5MM_PROTOTYPE",
+      "bore_diameter_model_units": 2.2,
+      "boolean_applied": true,
+      "mesh_vertices": 104
+    }
+  ],
+  "status": "WIP; holes centered in provisional horn geometry",
+  "critical_blockers": [
+    "verify hole position relative to actual hinge axis",
+    "ensure adequate material around bore and printed layer direction",
+    "size clevis and hinge pins",
+    "full range collision sweep",
+    "servo torque and pushrod buckling",
+    "sealing of exposed servo/linkage interfaces"
+  ],
+  "land_water_air": "not validated"
+}
