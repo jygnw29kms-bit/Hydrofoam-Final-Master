@@ -1,0 +1,14 @@
+{
+  "version": "v327",
+  "repair": "attempt boundary-loop cap on v325 left fin",
+  "boundary_edges_before": 14,
+  "nonmanifold_edges_after_trial": 0,
+  "repair_applied": true,
+  "note": "A manifold result is not proof of correct cut shape, watertight printing or mechanical integrity",
+  "accepted": false,
+  "next": [
+    "inspect geometry visually for accidental caps",
+    "verify no rudder interference",
+    "validate hinge axis and sweep"
+  ]
+}
