@@ -24,7 +24,13 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v333 (WIP)
+## Aktueller Konstruktionsstand: v335 (WIP, nicht Final)
+
+![Hydrofoam v335: aktueller Blender-CAD-Stand mit Elevon-Scharnierprototypen](renders/v335/current_cad_assembly_wip.png)
+
+**Aktuelles echtes CAD-Bild:** Blender 4.5, direkt aus `cad/Hydrofoam_Final_Master_v335_ELEVON_HINGE_HARDWARE_WIP.blend` gerendert (138 sichtbare Mesh-Objekte). Das ist der momentane Konstruktionsstand, keine fotografische Final-Master-Abnahme. [QA v335](docs/V335_ELEVON_HINGE_HARDWARE_QA.json): sechs Scharnierhuelsen und zwei Pins als STL-Prototypen; noch nicht strukturell mit den Elternbauteilen verbunden. [QA-Gate v334](docs/V334_CONTROL_SURFACE_ACCEPTANCE_GATE.json): LAND, WASSER und LUFT nicht abgenommen.
+
+### Vorheriger Stand v333
 
 ![Hydrofoam v333: Original-Elevons aus dem Final-Master als separat bewegliche CAD-Baugruppen](renders/v333/master_elevon_articulation_iso.png)
 
