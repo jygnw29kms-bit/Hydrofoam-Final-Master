@@ -15,12 +15,17 @@ def validate(rows):
     issues = []
     expected = {(s, h, i) for s in ("left", "right")
                 for h in ("front", "rear") for i in (1, 2)}
+    if not isinstance(rows, list) or any(not isinstance(r, dict) for r in rows):
+        return ["Survey must be a list of hole dictionaries"]
     found = [(r.get("side"), r.get("half"), r.get("hole")) for r in rows]
     if len(rows) != 8 or set(found) != expected or len(set(found)) != len(found):
         issues.append("Missing, duplicated or unexpected M3 hole locations")
     for r in rows:
         key = "/".join(map(str, (r.get("side"), r.get("half"), r.get("hole"))))
         probes = r.get("annulus_probes", [])
+        if not isinstance(probes, list) or any(not isinstance(p, dict) for p in probes):
+            issues.append(f"{key}: malformed annular probes")
+            continue
         if len(probes) != 4:
             issues.append(f"{key}: expected four annular probes")
         if r.get("valid_annulus_probe_count") != 4:
@@ -33,7 +38,10 @@ def validate(rows):
         if any(not isinstance(g, (int, float)) or not math.isfinite(g) for g in gaps):
             issues.append(f"{key}: missing or non-finite gap")
             continue
-        if abs(min(gaps) - r.get("vertical_gap_mm", float("inf"))) > 1e-5:
+        reported = r.get("vertical_gap_mm")
+        if not isinstance(reported, (int, float)) or not math.isfinite(reported):
+            issues.append(f"{key}: missing or non-finite reported gap")
+        elif abs(min(gaps) - reported) > 1e-5:
             issues.append(f"{key}: reported gap differs from probe minimum")
         if min(gaps) < 0:
             issues.append(f"{key}: apparent geometric overlap")
@@ -44,8 +52,12 @@ def validate(rows):
 def main():
     if not INPUT.exists():
         raise SystemExit("BLOCKED: real v310 survey JSON missing; run on Jens-PC first")
-    rows = json.loads(INPUT.read_text(encoding="utf-8"))
-    issues = validate(rows)
+    try:
+        rows = json.loads(INPUT.read_text(encoding="utf-8"))
+        issues = validate(rows)
+    except (ValueError, TypeError) as exc:
+        rows = []
+        issues = [f"Malformed survey JSON: {exc}"]
     report = {
         "stage": "v312 mounting interface data gate",
         "survey_file": str(INPUT.relative_to(ROOT)),
