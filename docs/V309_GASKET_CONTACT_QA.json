@@ -1,0 +1,87 @@
+{
+  "method": "64 vertical surface samples around each nominal gasket annulus; not a 3D collision or sealing test",
+  "positions": [
+    {
+      "side": "left",
+      "half": "front",
+      "hole": 1,
+      "sample_count": 64,
+      "hull_z_range_mm": 2.1229,
+      "hull_z_min_mm": 0.9645,
+      "hull_z_max_mm": 3.0874,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "left",
+      "half": "front",
+      "hole": 2,
+      "sample_count": 64,
+      "hull_z_range_mm": 0.2756,
+      "hull_z_min_mm": -4.5646,
+      "hull_z_max_mm": -4.289,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "left",
+      "half": "rear",
+      "hole": 1,
+      "sample_count": 64,
+      "hull_z_range_mm": 0.5378,
+      "hull_z_min_mm": -4.0281,
+      "hull_z_max_mm": -3.4903,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "left",
+      "half": "rear",
+      "hole": 2,
+      "sample_count": 64,
+      "hull_z_range_mm": 2.3292,
+      "hull_z_min_mm": 15.3839,
+      "hull_z_max_mm": 17.7131,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "right",
+      "half": "front",
+      "hole": 1,
+      "sample_count": 64,
+      "hull_z_range_mm": 2.1229,
+      "hull_z_min_mm": 0.9645,
+      "hull_z_max_mm": 3.0874,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "right",
+      "half": "front",
+      "hole": 2,
+      "sample_count": 64,
+      "hull_z_range_mm": 0.2757,
+      "hull_z_min_mm": -4.5646,
+      "hull_z_max_mm": -4.289,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "right",
+      "half": "rear",
+      "hole": 1,
+      "sample_count": 64,
+      "hull_z_range_mm": 0.5378,
+      "hull_z_min_mm": -4.0281,
+      "hull_z_max_mm": -3.4903,
+      "planar_gasket_contact_approved": false
+    },
+    {
+      "side": "right",
+      "half": "rear",
+      "hole": 2,
+      "sample_count": 64,
+      "hull_z_range_mm": 2.3292,
+      "hull_z_min_mm": 15.3839,
+      "hull_z_max_mm": 17.7131,
+      "planar_gasket_contact_approved": false
+    }
+  ],
+  "pass": false,
+  "reason": "No validated compression, inserts, or watertight mechanical interface"
+}
