@@ -1,0 +1,80 @@
+{
+  "version": "v328",
+  "section": "01",
+  "change": "five alternating annular hinge sleeves and pin reference per rudder",
+  "results": [
+    {
+      "side": "Left",
+      "hinge_x": 201.0,
+      "hinge_y": -182.5,
+      "knuckles": [
+        {
+          "z": 45,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 56,
+          "mount_side": "MOVING_RUDDER",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 67,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 78,
+          "mount_side": "MOVING_RUDDER",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 89,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        }
+      ],
+      "note": "Sleeves and pins are standalone geometries, not fused to fin/rudder surfaces"
+    },
+    {
+      "side": "Right",
+      "hinge_x": 201.0,
+      "hinge_y": 182.5,
+      "knuckles": [
+        {
+          "z": 45,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 56,
+          "mount_side": "MOVING_RUDDER",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 67,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 78,
+          "mount_side": "MOVING_RUDDER",
+          "nonmanifold_edges": 0
+        },
+        {
+          "z": 89,
+          "mount_side": "FIXED_FIN",
+          "nonmanifold_edges": 0
+        }
+      ],
+      "note": "Sleeves and pins are standalone geometries, not fused to fin/rudder surfaces"
+    }
+  ],
+  "accepted": false,
+  "open": [
+    "connect sleeves structurally to their assigned fin/rudder bodies",
+    "check hinge axis alignment and moving clearances",
+    "measure true 3D servo rod movement and collision",
+    "pin material, axial retention and tolerances need definition"
+  ]
+}

@@ -24,11 +24,11 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v327 (WIP)
+## Aktueller Konstruktionsstand: v328 (WIP)
 
-![Hydrofoam v327 Blender Gesamtmodell mit reparierter linker Leitwerks-Topologie](renders/v327/repaired_twin_fins_iso.png)
+![Hydrofoam v328 Blender Modell mit 10 Seitenruder-Scharnierhuelsen und zwei Achsen](renders/v328/twin_rudder_hinge_knuckles_iso.png)
 
-**Bauabschnitt 01:** Der Boolean-Ausschnitt v325 erzeugte 14 offene Kanten links. Die v327-Lochverschlussoperation beseitigt alle 14 offenen Kanten im Mesh. **Die Reparatur ist nur topologisch, die reale Form und Ruderausschlag-Freigaengigkeit muessen noch geprueft werden.** [QA v327](docs/V327_LEFT_FIN_REPAIR_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
+**Bauabschnitt 01:** Je Leitwerksseite 5 wechselweise zugeordnete Scharnierhuelsen und ein Achsreferenz-Pin. 10/10 Huelsen haben geschlossene Mesh-Topologie. **Huelsen sind noch nicht tragend mit Flosse/Ruder verbunden, Achsen und Spiel nicht validiert.** [QA v328](docs/V328_RUDDER_HINGE_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
 
 Original-Final-Master-Bild unveraendert. LAND/WASSER/LUFT noch nicht abgenommen.
 
