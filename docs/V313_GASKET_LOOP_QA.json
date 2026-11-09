@@ -1,0 +1,33 @@
+{
+  "version": "v313",
+  "status": "closed-loop gasket path modeled, still NOT waterproof",
+  "improvement": "replaced four disconnected gasket strips with one cyclic perimeter spline",
+  "gasket_centerline_mm_assuming_blender_units": [
+    [
+      -69,
+      -37
+    ],
+    [
+      69,
+      -37
+    ],
+    [
+      69,
+      37
+    ],
+    [
+      -69,
+      37
+    ]
+  ],
+  "gasket_nominal_radius": 1.2,
+  "unresolved": [
+    "actual groove not cut into flange",
+    "gasket compression and corner radius unverified",
+    "fastener bosses not sealed",
+    "cable penetrations missing",
+    "pod not fitted to fuselage",
+    "no pressure test"
+  ],
+  "acceptance": "no waterproof claim until mechanical fit and immersion test"
+}
