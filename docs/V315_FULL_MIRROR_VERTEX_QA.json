@@ -1,0 +1,85 @@
+{
+  "axis": "Y=0",
+  "tolerance_model_units": 0.001,
+  "results": [
+    {
+      "pair": "11 Orange float leading stripe Left",
+      "vertices": 1410,
+      "maximum_mirror_distance": 6.198149640113115e-05,
+      "result": "PASS"
+    },
+    {
+      "pair": "12 Black PETG skid Left",
+      "vertices": 1058,
+      "maximum_mirror_distance": 3.1489307730225846e-05,
+      "result": "PASS"
+    },
+    {
+      "pair": "21 Orange wing curve Left",
+      "vertices": 24,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "22 Outer rear wing Left",
+      "vertices": 14,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "23 Orange wingtip Left",
+      "vertices": 10,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "24 Elevon Left",
+      "vertices": 14,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "25 Orange elevon trim Left",
+      "vertices": 10,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "30 Tail fin Left",
+      "vertices": 14,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "31 Tail fin orange top Left",
+      "vertices": 8,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "32 Tail fin dark inset Left",
+      "vertices": 8,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "33 Float service panel Left",
+      "vertices": 10,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "v305 WING 20_Swept_blended_wing_Left_front",
+      "vertices": 28,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    },
+    {
+      "pair": "v305 WING 20_Swept_blended_wing_Left_rear",
+      "vertices": 40,
+      "maximum_mirror_distance": 0.0,
+      "result": "PASS"
+    }
+  ],
+  "limitations": "only named Left/Right mesh pairs; no aerodynamic, watertight or full-scene symmetry proof"
+}
