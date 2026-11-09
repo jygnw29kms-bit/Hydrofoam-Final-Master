@@ -1,0 +1,112 @@
+{
+  "analysis": [
+    {
+      "version": "v324",
+      "side": "Left",
+      "faces": 17,
+      "nonmanifold": 0,
+      "boundary": 0,
+      "wire": 0,
+      "nonmanifold_edge_centers": []
+    },
+    {
+      "version": "v324",
+      "side": "Right",
+      "faces": 17,
+      "nonmanifold": 0,
+      "boundary": 0,
+      "wire": 0,
+      "nonmanifold_edge_centers": []
+    },
+    {
+      "version": "v325",
+      "side": "Left",
+      "faces": 19,
+      "nonmanifold": 14,
+      "boundary": 14,
+      "wire": 0,
+      "nonmanifold_edge_centers": [
+        [
+          204.09,
+          -181.0,
+          104.6
+        ],
+        [
+          201.4,
+          -181.0,
+          101.39
+        ],
+        [
+          201.4,
+          -184.0,
+          101.39
+        ],
+        [
+          204.09,
+          -184.0,
+          104.6
+        ],
+        [
+          201.4,
+          -181.0,
+          70.98
+        ],
+        [
+          210.3,
+          -181.0,
+          104.6
+        ],
+        [
+          201.4,
+          -184.0,
+          70.98
+        ],
+        [
+          210.3,
+          -184.0,
+          104.6
+        ],
+        [
+          210.41,
+          -181.0,
+          37.4
+        ],
+        [
+          201.4,
+          -181.0,
+          40.59
+        ],
+        [
+          210.41,
+          -184.0,
+          37.4
+        ],
+        [
+          201.4,
+          -184.0,
+          40.59
+        ],
+        [
+          213.81,
+          -182.5,
+          104.6
+        ],
+        [
+          219.41,
+          -182.5,
+          37.4
+        ]
+      ]
+    },
+    {
+      "version": "v325",
+      "side": "Right",
+      "faces": 22,
+      "nonmanifold": 0,
+      "boundary": 0,
+      "wire": 0,
+      "nonmanifold_edge_centers": []
+    }
+  ],
+  "accepted": false
+}
