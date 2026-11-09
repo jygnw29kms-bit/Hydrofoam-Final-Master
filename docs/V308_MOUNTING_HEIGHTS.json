@@ -1,0 +1,82 @@
+[
+  {
+    "side": "left",
+    "half": "front",
+    "x_mm": -120,
+    "y_mm": -119,
+    "hull_lower_z_mm": 1.9613464820579611,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 9.661346482057962,
+    "intersections": 6
+  },
+  {
+    "side": "left",
+    "half": "front",
+    "x_mm": -29,
+    "y_mm": -119,
+    "hull_lower_z_mm": -4.551443087627313,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 3.148556912372687,
+    "intersections": 6
+  },
+  {
+    "side": "left",
+    "half": "rear",
+    "x_mm": 9,
+    "y_mm": -119,
+    "hull_lower_z_mm": -3.8058880652444076,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 3.8941119347555926,
+    "intersections": 6
+  },
+  {
+    "side": "left",
+    "half": "rear",
+    "x_mm": 120,
+    "y_mm": -119,
+    "hull_lower_z_mm": 16.562870926060363,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 24.262870926060362,
+    "intersections": 6
+  },
+  {
+    "side": "right",
+    "half": "front",
+    "x_mm": -120,
+    "y_mm": 119,
+    "hull_lower_z_mm": 1.9613463765368735,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 9.661346376536873,
+    "intersections": 6
+  },
+  {
+    "side": "right",
+    "half": "front",
+    "x_mm": -29,
+    "y_mm": 119,
+    "hull_lower_z_mm": -4.551443060070869,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 3.148556939929131,
+    "intersections": 6
+  },
+  {
+    "side": "right",
+    "half": "rear",
+    "x_mm": 9,
+    "y_mm": 119,
+    "hull_lower_z_mm": -3.8058879788186726,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 3.8941120211813276,
+    "intersections": 6
+  },
+  {
+    "side": "right",
+    "half": "rear",
+    "x_mm": 120,
+    "y_mm": 119,
+    "hull_lower_z_mm": 16.562870960815864,
+    "skid_upper_z_mm": -7.7,
+    "vertical_gap_mm": 24.262870960815864,
+    "intersections": 6
+  }
+]

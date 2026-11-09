@@ -1,0 +1,82 @@
+[
+  {
+    "file": "conformal_skid_left_front.stl",
+    "watertight": true,
+    "winding": true,
+    "bounds_mm": [
+      [
+        -135.0,
+        -126.5,
+        -8.363
+      ],
+      [
+        -14.0,
+        -111.5,
+        6.118
+      ]
+    ],
+    "max_axis_mm": 121.0,
+    "volume_mm3": 5753.612,
+    "components": 1
+  },
+  {
+    "file": "conformal_skid_left_rear.stl",
+    "watertight": true,
+    "winding": true,
+    "bounds_mm": [
+      [
+        -6.0,
+        -126.5,
+        -8.149
+      ],
+      [
+        135.0,
+        -111.5,
+        19.734
+      ]
+    ],
+    "max_axis_mm": 141.0,
+    "volume_mm3": 6713.614,
+    "components": 1
+  },
+  {
+    "file": "conformal_skid_right_front.stl",
+    "watertight": true,
+    "winding": true,
+    "bounds_mm": [
+      [
+        -135.0,
+        111.5,
+        -8.363
+      ],
+      [
+        -14.0,
+        126.5,
+        6.118
+      ]
+    ],
+    "max_axis_mm": 121.0,
+    "volume_mm3": 5753.612,
+    "components": 1
+  },
+  {
+    "file": "conformal_skid_right_rear.stl",
+    "watertight": true,
+    "winding": true,
+    "bounds_mm": [
+      [
+        -6.0,
+        111.5,
+        -8.149
+      ],
+      [
+        135.0,
+        126.5,
+        19.734
+      ]
+    ],
+    "max_axis_mm": 141.0,
+    "volume_mm3": 6713.614,
+    "components": 1
+  }
+]
