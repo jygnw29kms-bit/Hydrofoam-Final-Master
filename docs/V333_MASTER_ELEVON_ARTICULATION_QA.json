@@ -1,0 +1,57 @@
+{
+  "version": "v333",
+  "source": "actual Final Master CAD elevon mesh and orange trim, unchanged contours",
+  "results": [
+    {
+      "side": "Left",
+      "existing_surface": "24 Elevon Left",
+      "existing_trim": "25 Orange elevon trim Left",
+      "hinge_reference_a": [
+        175.0,
+        -54.0,
+        28.799999237060547
+      ],
+      "hinge_reference_b": [
+        174.0,
+        -162.0,
+        28.799999237060547
+      ],
+      "animation_frames": {
+        "1": 0,
+        "20": 15,
+        "40": -15,
+        "60": 0
+      },
+      "limitation": "reference hinge inferred from mesh stations; not cut or structurally joined; \u00b115 degrees is demonstration only"
+    },
+    {
+      "side": "Right",
+      "existing_surface": "24 Elevon Right",
+      "existing_trim": "25 Orange elevon trim Right",
+      "hinge_reference_a": [
+        175.0,
+        54.0,
+        28.799999237060547
+      ],
+      "hinge_reference_b": [
+        174.0,
+        162.0,
+        28.799999237060547
+      ],
+      "animation_frames": {
+        "1": 0,
+        "20": 15,
+        "40": -15,
+        "60": 0
+      },
+      "limitation": "reference hinge inferred from mesh stations; not cut or structurally joined; \u00b115 degrees is demonstration only"
+    }
+  ],
+  "status": "articulated non-destructive rig and keyframes; not flight-ready",
+  "open": [
+    "hinge physical cut and knuckles",
+    "servo mounts and horns",
+    "moving geometry interference and linkage sweep",
+    "pixel-aligned comparison to exact master top view"
+  ]
+}

@@ -24,11 +24,11 @@ Technische Einzelheiten, Risiken, Unterseitenkufen, Bodenkontakt, Foil-Bodenfrei
 **Status v306:** Diese Funktionen sind noch nicht nachgewiesen. Kein Final-Release.
 
 <!-- CURRENT_CONSTRUCTION_RENDER_START -->
-## Aktueller Konstruktionsstand: v331 (WIP)
+## Aktueller Konstruktionsstand: v333 (WIP)
 
-![Hydrofoam v331 Blender Modell mit zehn Scharnierhuelsen und angeformten Bruecken](renders/v331/hinge_mount_bridges_iso.png)
+![Hydrofoam v333: Original-Elevons aus dem Final-Master als separat bewegliche CAD-Baugruppen](renders/v333/master_elevon_articulation_iso.png)
 
-**Bauabschnitt 01:** Zehn Scharnierhuelsen mit je einer per Boolean vereinigten Befestigungsbruecke modelliert. **10/10 resultierende Huelsen-Meshes topologisch geschlossen.** Die Bruecken sind noch nicht mit den Flossen/Ruderkoerpern vereint und nicht belastungs- oder bewegungsgeprueft. [QA v331](docs/V331_HINGE_MOUNT_BRIDGES_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
+**Neu:** Beide **originalen** Elevon-Meshes (`24 Elevon Left/Right`) und ihre orangefarbenen Trims wurden mit je einem schraeg verlaufenden, animierbaren Scharnier-Pivot verbunden. Blender-Keyframes zeigen neutral, +15 und -15 Grad; Originalkonturen nicht durch Rechtecke ersetzt. Die Achsen sind derzeit **geometrische Referenzen**, keine druckbaren Scharniere. [CAD-QA v333](docs/V333_MASTER_ELEVON_ARTICULATION_QA.json). [Bauabschnitte](docs/BUILD_SECTIONS_TO_FINAL.md).
 
 Original-Final-Master-Bild unveraendert. LAND/WASSER/LUFT noch nicht abgenommen.
 
