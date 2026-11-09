@@ -1,0 +1,837 @@
+{
+  "source": "v314 Blender geometry",
+  "symmetry_axis": "y=0 (Left negative y, Right positive y)",
+  "candidate_objects": [
+    {
+      "name": "11 Orange float leading stripe Left",
+      "center_x": -127.172,
+      "center_y": -119.0,
+      "center_z": 30.874,
+      "dimensions": [
+        73.175,
+        13.519,
+        10.545
+      ],
+      "vertices": 1410
+    },
+    {
+      "name": "11 Orange float leading stripe Right",
+      "center_x": -127.172,
+      "center_y": 119.0,
+      "center_z": 30.874,
+      "dimensions": [
+        73.175,
+        13.519,
+        10.545
+      ],
+      "vertices": 1410
+    },
+    {
+      "name": "12 Black PETG skid Left",
+      "center_x": -21.627,
+      "center_y": -119.0,
+      "center_z": -9.753,
+      "dimensions": [
+        145.81,
+        21.277,
+        11.15
+      ],
+      "vertices": 1058
+    },
+    {
+      "name": "12 Black PETG skid Right",
+      "center_x": -21.627,
+      "center_y": 119.0,
+      "center_z": -9.753,
+      "dimensions": [
+        145.81,
+        21.277,
+        11.15
+      ],
+      "vertices": 1058
+    },
+    {
+      "name": "21 Orange wing curve Left",
+      "center_x": -61.0,
+      "center_y": -92.0,
+      "center_z": 36.225,
+      "dimensions": [
+        190.0,
+        116.0,
+        1.9
+      ],
+      "vertices": 24
+    },
+    {
+      "name": "21 Orange wing curve Right",
+      "center_x": -61.0,
+      "center_y": 92.0,
+      "center_z": 36.225,
+      "dimensions": [
+        190.0,
+        116.0,
+        1.9
+      ],
+      "vertices": 24
+    },
+    {
+      "name": "22 Outer rear wing Left",
+      "center_x": 131.5,
+      "center_y": -189.0,
+      "center_z": 29.65,
+      "dimensions": [
+        89.0,
+        96.0,
+        3.1
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "22 Outer rear wing Right",
+      "center_x": 131.5,
+      "center_y": 189.0,
+      "center_z": 29.65,
+      "dimensions": [
+        89.0,
+        96.0,
+        3.1
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "23 Orange wingtip Left",
+      "center_x": 157.5,
+      "center_y": -224.0,
+      "center_z": 32.8,
+      "dimensions": [
+        25.0,
+        26.0,
+        0.6
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "23 Orange wingtip Right",
+      "center_x": 157.5,
+      "center_y": 224.0,
+      "center_z": 32.8,
+      "dimensions": [
+        25.0,
+        26.0,
+        0.6
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "24 Elevon Left",
+      "center_x": 168.5,
+      "center_y": -109.5,
+      "center_z": 28.8,
+      "dimensions": [
+        77.0,
+        133.0,
+        2.4
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "24 Elevon Right",
+      "center_x": 168.5,
+      "center_y": 109.5,
+      "center_z": 28.8,
+      "dimensions": [
+        77.0,
+        133.0,
+        2.4
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "25 Orange elevon trim Left",
+      "center_x": 202.0,
+      "center_y": -128.0,
+      "center_z": 30.65,
+      "dimensions": [
+        16.0,
+        92.0,
+        0.7
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "25 Orange elevon trim Right",
+      "center_x": 202.0,
+      "center_y": 128.0,
+      "center_z": 30.65,
+      "dimensions": [
+        16.0,
+        92.0,
+        0.7
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "30 Tail fin Left",
+      "center_x": 182.5,
+      "center_y": -182.5,
+      "center_z": 71.0,
+      "dimensions": [
+        75.0,
+        3.0,
+        82.0
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "30 Tail fin Right",
+      "center_x": 182.5,
+      "center_y": 182.5,
+      "center_z": 71.0,
+      "dimensions": [
+        75.0,
+        3.0,
+        82.0
+      ],
+      "vertices": 14
+    },
+    {
+      "name": "31 Tail fin orange top Left",
+      "center_x": 205.0,
+      "center_y": -182.5,
+      "center_z": 99.0,
+      "dimensions": [
+        16.0,
+        3.0,
+        26.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "31 Tail fin orange top Right",
+      "center_x": 205.0,
+      "center_y": 182.5,
+      "center_z": 99.0,
+      "dimensions": [
+        16.0,
+        3.0,
+        26.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "32 Tail fin dark inset Left",
+      "center_x": 187.5,
+      "center_y": -182.5,
+      "center_z": 80.0,
+      "dimensions": [
+        43.0,
+        3.0,
+        50.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "32 Tail fin dark inset Right",
+      "center_x": 187.5,
+      "center_y": 182.5,
+      "center_z": 80.0,
+      "dimensions": [
+        43.0,
+        3.0,
+        50.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "33 Float service panel Left",
+      "center_x": -51.0,
+      "center_y": -107.0,
+      "center_z": 37.85,
+      "dimensions": [
+        28.0,
+        4.0,
+        0.3
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "33 Float service panel Right",
+      "center_x": -51.0,
+      "center_y": 107.0,
+      "center_z": 37.85,
+      "dimensions": [
+        28.0,
+        4.0,
+        0.3
+      ],
+      "vertices": 10
+    },
+    {
+      "name": "PORT_FOIL_BLADE_WIP",
+      "center_x": -180.0,
+      "center_y": -220.0,
+      "center_z": -65.0,
+      "dimensions": [
+        125.0,
+        42.0,
+        5.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "PORT_MOUNTING_TOP_PLATE_WIP",
+      "center_x": -180.0,
+      "center_y": -220.0,
+      "center_z": -18.0,
+      "dimensions": [
+        55.0,
+        35.0,
+        5.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "PORT_PIN_PLACEHOLDER_-10",
+      "center_x": -180.0,
+      "center_y": -230.0,
+      "center_z": -14.0,
+      "dimensions": [
+        6.0,
+        6.0,
+        8.0
+      ],
+      "vertices": 64
+    },
+    {
+      "name": "PORT_PIN_PLACEHOLDER_10",
+      "center_x": -180.0,
+      "center_y": -210.0,
+      "center_z": -14.0,
+      "dimensions": [
+        6.0,
+        6.0,
+        8.0
+      ],
+      "vertices": 64
+    },
+    {
+      "name": "PORT_REMOVABLE_MAST_WIP",
+      "center_x": -180.0,
+      "center_y": -220.0,
+      "center_z": -41.0,
+      "dimensions": [
+        10.0,
+        12.0,
+        44.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "PORT_SKID_WEAR_INSERT_WIP",
+      "center_x": -180.0,
+      "center_y": -220.0,
+      "center_z": -12.0,
+      "dimensions": [
+        55.0,
+        14.0,
+        4.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "STARBOARD_FOIL_BLADE_WIP",
+      "center_x": 180.0,
+      "center_y": -220.0,
+      "center_z": -65.0,
+      "dimensions": [
+        125.0,
+        42.0,
+        5.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "STARBOARD_MOUNTING_TOP_PLATE_WIP",
+      "center_x": 180.0,
+      "center_y": -220.0,
+      "center_z": -18.0,
+      "dimensions": [
+        55.0,
+        35.0,
+        5.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "STARBOARD_PIN_PLACEHOLDER_-10",
+      "center_x": 180.0,
+      "center_y": -230.0,
+      "center_z": -14.0,
+      "dimensions": [
+        6.0,
+        6.0,
+        8.0
+      ],
+      "vertices": 64
+    },
+    {
+      "name": "STARBOARD_PIN_PLACEHOLDER_10",
+      "center_x": 180.0,
+      "center_y": -210.0,
+      "center_z": -14.0,
+      "dimensions": [
+        6.0,
+        6.0,
+        8.0
+      ],
+      "vertices": 64
+    },
+    {
+      "name": "STARBOARD_REMOVABLE_MAST_WIP",
+      "center_x": 180.0,
+      "center_y": -220.0,
+      "center_z": -41.0,
+      "dimensions": [
+        10.0,
+        12.0,
+        44.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "STARBOARD_SKID_WEAR_INSERT_WIP",
+      "center_x": 180.0,
+      "center_y": -220.0,
+      "center_z": -12.0,
+      "dimensions": [
+        55.0,
+        14.0,
+        4.0
+      ],
+      "vertices": 8
+    },
+    {
+      "name": "v296 Wing to float transition L",
+      "center_x": 34.5,
+      "center_y": -125.0,
+      "center_z": 34.0,
+      "dimensions": [
+        99.0,
+        58.0,
+        10.0
+      ],
+      "vertices": 168
+    },
+    {
+      "name": "v296 Wing to float transition R",
+      "center_x": 34.5,
+      "center_y": 125.0,
+      "center_z": 34.0,
+      "dimensions": [
+        99.0,
+        58.0,
+        10.0
+      ],
+      "vertices": 168
+    },
+    {
+      "name": "v305 HOLLOW float_left_front",
+      "center_x": -86.945,
+      "center_y": -119.0,
+      "center_z": 16.274,
+      "dimensions": [
+        153.891,
+        58.976,
+        41.68
+      ],
+      "vertices": 3384
+    },
+    {
+      "name": "v305 HOLLOW float_left_rear",
+      "center_x": 79.814,
+      "center_y": -119.0,
+      "center_z": 16.159,
+      "dimensions": [
+        179.628,
+        58.922,
+        41.153
+      ],
+      "vertices": 3025
+    },
+    {
+      "name": "v305 HOLLOW float_right_front",
+      "center_x": -86.945,
+      "center_y": 119.0,
+      "center_z": 16.274,
+      "dimensions": [
+        153.891,
+        58.976,
+        41.68
+      ],
+      "vertices": 3384
+    },
+    {
+      "name": "v305 HOLLOW float_right_rear",
+      "center_x": 79.814,
+      "center_y": 119.0,
+      "center_z": 16.159,
+      "dimensions": [
+        179.628,
+        58.922,
+        41.153
+      ],
+      "vertices": 3025
+    },
+    {
+      "name": "v305 WING 20_Swept_blended_wing_Left_front",
+      "center_x": -87.5,
+      "center_y": -77.7,
+      "center_z": 34.372,
+      "dimensions": [
+        155.0,
+        95.4,
+        3.962
+      ],
+      "vertices": 28
+    },
+    {
+      "name": "v305 WING 20_Swept_blended_wing_Left_rear",
+      "center_x": 80.0,
+      "center_y": -141.282,
+      "center_z": 33.125,
+      "dimensions": [
+        180.0,
+        189.437,
+        6.401
+      ],
+      "vertices": 40
+    },
+    {
+      "name": "v305 WING 20_Swept_blended_wing_Right_front",
+      "center_x": -87.5,
+      "center_y": 77.7,
+      "center_z": 34.372,
+      "dimensions": [
+        155.0,
+        95.4,
+        3.962
+      ],
+      "vertices": 28
+    },
+    {
+      "name": "v305 WING 20_Swept_blended_wing_Right_rear",
+      "center_x": 80.0,
+      "center_y": 141.282,
+      "center_z": 33.125,
+      "dimensions": [
+        180.0,
+        189.437,
+        6.401
+      ],
+      "vertices": 40
+    },
+    {
+      "name": "v308 CONFORMAL PETG skid left front",
+      "center_x": -74.5,
+      "center_y": -119.0,
+      "center_z": -1.122,
+      "dimensions": [
+        121.0,
+        15.0,
+        14.481
+      ],
+      "vertices": 1042
+    },
+    {
+      "name": "v308 CONFORMAL PETG skid left rear",
+      "center_x": 64.5,
+      "center_y": -119.0,
+      "center_z": 5.793,
+      "dimensions": [
+        141.0,
+        15.0,
+        27.882
+      ],
+      "vertices": 1050
+    },
+    {
+      "name": "v308 CONFORMAL PETG skid right front",
+      "center_x": -74.5,
+      "center_y": 119.0,
+      "center_z": -1.122,
+      "dimensions": [
+        121.0,
+        15.0,
+        14.481
+      ],
+      "vertices": 1042
+    },
+    {
+      "name": "v308 CONFORMAL PETG skid right rear",
+      "center_x": 64.5,
+      "center_y": 119.0,
+      "center_z": 5.793,
+      "dimensions": [
+        141.0,
+        15.0,
+        27.882
+      ],
+      "vertices": 1050
+    },
+    {
+      "name": "v309 GASKET WIP left front 1",
+      "center_x": -120.0,
+      "center_y": -119.0,
+      "center_z": 1.661,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP left front 2",
+      "center_x": -29.0,
+      "center_y": -119.0,
+      "center_z": -4.851,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP left rear 1",
+      "center_x": 9.0,
+      "center_y": -119.0,
+      "center_z": -4.106,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP left rear 2",
+      "center_x": 120.0,
+      "center_y": -119.0,
+      "center_z": 16.263,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP right front 1",
+      "center_x": -120.0,
+      "center_y": 119.0,
+      "center_z": 1.661,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP right front 2",
+      "center_x": -29.0,
+      "center_y": 119.0,
+      "center_z": -4.851,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP right rear 1",
+      "center_x": 9.0,
+      "center_y": 119.0,
+      "center_z": -4.106,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    },
+    {
+      "name": "v309 GASKET WIP right rear 2",
+      "center_x": 120.0,
+      "center_y": 119.0,
+      "center_z": 16.263,
+      "dimensions": [
+        10.0,
+        10.0,
+        0.5
+      ],
+      "vertices": 256
+    }
+  ],
+  "warning": "Bounding boxes and vertex counts only, NOT full mirrored mesh correspondence",
+  "pair_results": [
+    {
+      "left": "11 Orange float leading stripe Left",
+      "right": "11 Orange float leading stripe Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "12 Black PETG skid Left",
+      "right": "12 Black PETG skid Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "21 Orange wing curve Left",
+      "right": "21 Orange wing curve Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "22 Outer rear wing Left",
+      "right": "22 Outer rear wing Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "23 Orange wingtip Left",
+      "right": "23 Orange wingtip Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "24 Elevon Left",
+      "right": "24 Elevon Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "25 Orange elevon trim Left",
+      "right": "25 Orange elevon trim Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "30 Tail fin Left",
+      "right": "30 Tail fin Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "31 Tail fin orange top Left",
+      "right": "31 Tail fin orange top Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "32 Tail fin dark inset Left",
+      "right": "32 Tail fin dark inset Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "33 Float service panel Left",
+      "right": "33 Float service panel Right",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "v305 WING 20_Swept_blended_wing_Left_front",
+      "right": "v305 WING 20_Swept_blended_wing_Right_front",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    },
+    {
+      "left": "v305 WING 20_Swept_blended_wing_Left_rear",
+      "right": "v305 WING 20_Swept_blended_wing_Right_rear",
+      "errors": {
+        "x_center_delta": 0.0,
+        "y_mirror_error": 0.0,
+        "z_center_delta": 0.0,
+        "max_bbox_dim_delta": 0.0,
+        "vertex_delta": 0
+      },
+      "result": "MATCH_BOUNDS"
+    }
+  ]
+}
