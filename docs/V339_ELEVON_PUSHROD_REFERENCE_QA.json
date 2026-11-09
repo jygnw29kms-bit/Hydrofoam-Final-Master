@@ -1,0 +1,30 @@
+{
+  "version": "v339",
+  "purpose": "symmetric CAD reference rods for later verified mechanical linkages",
+  "parts": [
+    {
+      "side": "Left",
+      "object": "V339_Left_ELEVON_PUSHROD_REFERENCE_WIP",
+      "center_to_center_mm": 40.574,
+      "rod_diameter_mm": 2.0,
+      "nonmanifold_edges": 0,
+      "endpoint_status": "unverified provisional coordinates"
+    },
+    {
+      "side": "Right",
+      "object": "V339_Right_ELEVON_PUSHROD_REFERENCE_WIP",
+      "center_to_center_mm": 40.574,
+      "rod_diameter_mm": 2.0,
+      "nonmanifold_edges": 0,
+      "endpoint_status": "unverified provisional coordinates"
+    }
+  ],
+  "accepted": false,
+  "blockers": [
+    "servo output arm and horn pivot not located on real selected hardware",
+    "rod ends not joined to bearings or clevises",
+    "motion and collision sweep not verified",
+    "servo trays and hinges not united to original wing/elevon",
+    "no master photo match or land-water-air proof"
+  ]
+}
