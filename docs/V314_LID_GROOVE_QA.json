@@ -1,0 +1,17 @@
+{
+  "version": "v314",
+  "status": "groove cut in lid underside using four Boolean operations",
+  "nominal_groove_width_mm": 2.8,
+  "nominal_groove_depth_mm": 1.0,
+  "gasket_nominal_diameter_mm": 2.4,
+  "note": "lid is exploded; seal compression cannot be inferred from illustration",
+  "blockers": [
+    "verify exact groove dimensions in real mesh",
+    "verify gasket path aligns to groove",
+    "verify continuous corner geometry and flange contact",
+    "fastener through-hole seals",
+    "cable glands",
+    "pressure immersion test",
+    "hull fit"
+  ]
+}
