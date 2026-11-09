@@ -1,0 +1,14 @@
+{
+  "version": "v316",
+  "views": [
+    "left",
+    "right",
+    "front",
+    "rear",
+    "top",
+    "bottom"
+  ],
+  "camera": "orthographic",
+  "status": "six Blender views; silhouette review pending",
+  "notes": "detached accessories excluded; no watertight or flight certification"
+}
