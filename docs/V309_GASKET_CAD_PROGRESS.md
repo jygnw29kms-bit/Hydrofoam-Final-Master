@@ -11,3 +11,8 @@ Blender 4.5 wurde auf Jens-PC ausgeführt. Die echte v308-Blender-Baugruppe wurd
 Dateien: `cad/Hydrofoam_Final_Master_v309_GASKET_WIP.blend`, `print/v309_mounting_gasket_prototypes/*.stl`, `scripts/build_v309_mounting_gasket_prototypes.py`, `scripts/audit_v309_gaskets.py`, `docs/V309_GASKET_QA.json`.
 
 README-Masterbilder bleiben unverändert, da keine gemessene Verbesserung der Fototreue vorliegt.
+## Echte Blender-Ansichten
+![v309 CAD Gesamtansicht](../renders/v309/assembled_iso.png)
+![v309 CAD Seitenansicht](../renders/v309/assembled_side.png)
+![v309 CAD Draufsicht](../renders/v309/assembled_top.png)
+![v309 Dichtungsdetail](../renders/v309/gasket_detail.png)
