@@ -1,0 +1,33 @@
+{
+  "version": "v325",
+  "section": "01",
+  "operation": "cut physical rudder clearance pockets from both fixed fin meshes",
+  "results": [
+    {
+      "side": "Left",
+      "fixed_fin_faces_before": 17,
+      "fixed_fin_faces_after": 19,
+      "fixed_fin_nonmanifold_edges": 14,
+      "rudder_clearance_nominal_mm": 0.6,
+      "clearance_method": "boolean cube around rectangular prototype surface",
+      "limitations": "rudder still rectangular and may not match tapered fin contour"
+    },
+    {
+      "side": "Right",
+      "fixed_fin_faces_before": 17,
+      "fixed_fin_faces_after": 22,
+      "fixed_fin_nonmanifold_edges": 0,
+      "rudder_clearance_nominal_mm": 0.6,
+      "clearance_method": "boolean cube around rectangular prototype surface",
+      "limitations": "rudder still rectangular and may not match tapered fin contour"
+    }
+  ],
+  "accepted": false,
+  "open": [
+    "validate real hinge geometry and hinge pin locations",
+    "measure actual clearance over +/-25 degree sweep",
+    "build shaped control surfaces matching fin taper",
+    "rod horn and servo mount integration",
+    "structural and printability checks"
+  ]
+}
