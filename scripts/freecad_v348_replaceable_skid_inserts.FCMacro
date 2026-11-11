@@ -1,0 +1,71 @@
+# Hydrofoam v348 | Parametrische, austauschbare Kufeneinsätze (WIP)
+# FreeCAD-Makro: in FreeCAD als Makro ausführen, nicht in Blender/Python allein.
+# Maßwerte sind konstruktive STARTPARAMETER, keine aus Masterbild abgeleiteten Ist-Maße.
+# Erst nach Abgleich mit den realen Schwimmerunterseiten fertigen und montieren.
+import FreeCAD as App
+import Part
+import math
+
+P = {
+    "length_mm": 145.0,
+    "width_mm": 16.0,
+    "thickness_mm": 3.5,
+    "nose_radius_mm": 7.0,
+    "hole_diameter_mm": 3.2,
+    "hole_spacing_mm": 95.0,
+    "end_offset_mm": 25.0,
+    "mount_boss_clearance_mm": 0.3,
+    "mirror_centerline_mm": 85.0,
+    "min_edge_mm": 3.0,
+}
+# Lochabstände und Kontur vor der Fertigung gegen Original-CAD und reale
+# Schraubpunkte kontrollieren. Keine neuen sichtbaren Master-Formen.
+assert P["hole_spacing_mm"] + 2 * P["end_offset_mm"] <= P["length_mm"]
+assert P["width_mm"] - P["hole_diameter_mm"] >= 2 * P["min_edge_mm"]
+assert P["thickness_mm"] >= 3.0
+doc = App.newDocument("Hydrofoam_v348_Skid_Inserts_WIP")
+L, W, T = P["length_mm"], P["width_mm"], P["thickness_mm"]
+R = min(P["nose_radius_mm"], W/2)
+# Lokales XY: x längs, y quer, z nach oben. Enden sind halbrund.
+# Eine geschlossene 2D-Kontur aus zwei Geraden und zwei Halbkreisen.
+v = App.Vector
+x0, x1 = -L/2 + R, L/2 - R
+y0, y1 = -W/2, W/2
+edges = [
+    Part.makeLine(v(x0,y0,0), v(x1,y0,0)),
+    Part.Arc(v(x1,y0,0),v(x1+R,0,0),v(x1,y1,0)).toShape(),
+    Part.makeLine(v(x1,y1,0),v(x0,y1,0)),
+    Part.Arc(v(x0,y1,0),v(x0-R,0,0),v(x0,y0,0)).toShape(),
+]
+base = Part.Face(Part.Wire(edges)).extrude(v(0,0,T))
+# Durchgangslöcher, nicht als selbstschneidende Schraubaufnahmen interpretieren.
+for x in (-P["hole_spacing_mm"]/2, P["hole_spacing_mm"]/2):
+    drill = Part.makeCylinder(P["hole_diameter_mm"]/2,T+2,v(x,0,-1))
+    base = base.cut(drill)
+base = base.removeSplitter()
+if not base.isValid() or len(base.Solids)!=1:
+    raise RuntimeError("Kufenkörper nicht als einzelner gültiger Solid erstellt")
+for side, y in (("Left",-P["mirror_centerline_mm"]),("Right",P["mirror_centerline_mm"])):
+    obj = doc.addObject("PartDesign::Feature", "Skid_"+side+"_WIP")
+    obj.Label = "Skid "+side+" | prototype / no fit approval"
+    obj.Shape = base.copy()
+    obj.Placement.Base = v(0,y,0)
+    obj.addProperty("App::PropertyString","Acceptance","QA")
+    obj.Acceptance = "WIP: mating surface, fasteners, wear and ground clearance NOT VERIFIED"
+    obj.addProperty("App::PropertyLength","NominalLength","Design")
+    obj.NominalLength = L
+    obj.addProperty("App::PropertyLength","NominalWidth","Design")
+    obj.NominalWidth = W
+    obj.addProperty("App::PropertyLength","NominalThickness","Design")
+    obj.NominalThickness = T
+doc.recompute()
+import os
+outdir = os.path.join(os.path.dirname(__file__), "..", "cad", "v348_skids")
+os.makedirs(outdir,exist_ok=True)
+doc.saveAs(os.path.join(outdir,"Hydrofoam_v348_Skid_Inserts_WIP.FCStd"))
+for side in ("Left","Right"):
+    ob=doc.getObject("Skid_"+side+"_WIP")
+    # export local body geometry: STL orientation/fit must be verified in slicer
+    import Mesh
+    Mesh.export([ob],os.path.join(outdir,"Skid_"+side+"_WIP.stl"))
+print("v348 exported: WIP only; no fit/land/water/flight acceptance")
