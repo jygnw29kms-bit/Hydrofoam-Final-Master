@@ -34,7 +34,7 @@ def mesh_details(obj):
         "object_origin_m": list(obj.matrix_world.translation),
         "rotation_euler_rad": list(obj.matrix_world.to_euler()),
         "scale": list(obj.scale),
-        "nonmanifold_edge_count": sum(1 for e in mesh.edges if not e.is_manifold) if hasattr(mesh.edges[0], "is_manifold") else None,
+        "nonmanifold_edge_count": None,
         "parent": obj.parent.name if obj.parent else None,
         "modifiers": [{"name": m.name, "type": m.type} for m in obj.modifiers],
     }
