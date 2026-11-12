@@ -1,0 +1,97 @@
+"""Hydrofoam v351: replaceable skid-wear shoe CAD, FreeCAD macro.
+
+Run from FreeCAD GUI Python console:
+    exec(open("scripts/freecad_v351_replaceable_skid_shoes.FCMacro", encoding="utf-8").read())
+Or use FreeCADCmd where Part and Mesh are available. Units: millimetres.
+
+Manufacturing coupons, not installed in the Final-Master geometry. The
+mounting-hole pattern, actual hull fit, foil clearance, wear, fastener
+retention and landing loads require measured validation before integration.
+This module must not be confused with land-mode approval.
+"""
+import FreeCAD as App
+import Part
+import Mesh
+import json
+from pathlib import Path
+
+OUT = Path("exports/v351_skid_shoes")
+OUT.mkdir(parents=True, exist_ok=True)
+
+# Dimensions are intentionally editable engineering parameters.
+LENGTH_MM = 110.0
+WIDTH_MM = 22.0
+THICKNESS_MM = 4.0
+TIP_RISE_MM = 6.0
+TIP_LENGTH_MM = 25.0
+MOUNT_SPACING_MM = 65.0
+MOUNT_HOLE_DIAMETER_MM = 3.4
+COUNTERSINK_DIAMETER_MM = 6.5
+COUNTERSINK_DEPTH_MM = 1.5
+MIN_WEB_MM = 2.0
+
+assert 0 < TIP_LENGTH_MM < LENGTH_MM / 2
+assert MOUNT_SPACING_MM + MOUNT_HOLE_DIAMETER_MM < LENGTH_MM
+assert COUNTERSINK_DEPTH_MM < THICKNESS_MM
+assert WIDTH_MM - COUNTERSINK_DIAMETER_MM >= 2 * MIN_WEB_MM
+
+doc = App.newDocument("Hydrofoam_v351_Sacrificial_Skids_WIP")
+
+def build(side, yoffset):
+    # The forward upturned end reduces snagging; flat rear provides contact.
+    x0 = -LENGTH_MM / 2
+    x1 = x0 + TIP_LENGTH_MM
+    x2 = LENGTH_MM / 2
+    y0 = yoffset - WIDTH_MM / 2
+    y1 = yoffset + WIDTH_MM / 2
+    # Extrude a continuous side profile across Y.
+    points = [
+        App.Vector(x0,y0,TIP_RISE_MM),
+        App.Vector(x1,y0,0),
+        App.Vector(x2,y0,0),
+        App.Vector(x2,y0,THICKNESS_MM),
+        App.Vector(x1,y0,THICKNESS_MM),
+        App.Vector(x0,y0,TIP_RISE_MM + THICKNESS_MM),
+    ]
+    wire = Part.makePolygon(points + [points[0]])
+    shoe = Part.Face(wire).extrude(App.Vector(0, WIDTH_MM, 0))
+    # Screw holes run through the shoe, clear of the raised tip.
+    for x in (-MOUNT_SPACING_MM/2, MOUNT_SPACING_MM/2):
+        bore = Part.makeCylinder(MOUNT_HOLE_DIAMETER_MM/2, THICKNESS_MM + 2,
+            App.Vector(x,yoffset,-1), App.Vector(0,0,1))
+        shoe = shoe.cut(bore)
+        # Recess from the upper face, never through the wear surface.
+        recess = Part.makeCylinder(COUNTERSINK_DIAMETER_MM/2, COUNTERSINK_DEPTH_MM,
+            App.Vector(x,yoffset,THICKNESS_MM - COUNTERSINK_DEPTH_MM),
+            App.Vector(0,0,1))
+        shoe = shoe.cut(recess)
+    shoe = shoe.removeSplitter()
+    if shoe.isNull() or not shoe.isValid() or not shoe.isClosed():
+        raise RuntimeError(side + " shoe invalid / non-closed")
+    obj = doc.addObject("PartDesign::Feature", "WearShoe_" + side)
+    obj.Label = "v351 replaceable wear shoe " + side + " WIP"
+    obj.Shape = shoe
+    obj.addProperty("App::PropertyString","Status","QA")
+    obj.Status = "UNVALIDATED: separate shoe, no master-hull mating geometry"
+    obj.addProperty("App::PropertyLength","NominalThickness","Parameters")
+    obj.NominalThickness = THICKNESS_MM
+    obj.addProperty("App::PropertyLength","MountSpacing","Parameters")
+    obj.MountSpacing = MOUNT_SPACING_MM
+    Mesh.export([obj], str(OUT / ("WearShoe_" + side + "_WIP.stl")))
+    return {"side":side,"volume_mm3":shoe.Volume,"solid_count":len(shoe.Solids),
+            "closed":shoe.isClosed(),"valid":shoe.isValid(),
+            "bbox_mm":[shoe.BoundBox.XLength,shoe.BoundBox.YLength,shoe.BoundBox.ZLength]}
+
+parts=[build("L",-25),build("R",25)]
+doc.recompute()
+doc.saveAs(str((OUT/"Hydrofoam_v351_Sacrificial_Skids_WIP.FCStd").resolve()))
+(OUT/"design_qa.json").write_text(json.dumps({
+    "version":"v351","accepted":False,"parts":parts,
+    "dimensions_mm":{"length":LENGTH_MM,"width":WIDTH_MM,
+       "thickness":THICKNESS_MM,"tip_rise":TIP_RISE_MM,
+       "mount_spacing":MOUNT_SPACING_MM,"mount_hole_diameter":MOUNT_HOLE_DIAMETER_MM},
+    "unverified":["master-hull attachment","ground clearance of foil assemblies",
+      "structural loads and screw pull-out","print orientation and wear resistance",
+      "sand/grass traction","actual skid contact and steering","land-water-air field tests"]
+},indent=2)+"\n",encoding="utf-8")
+print("v351 created FreeCAD shoes; NOT accepted:",OUT)
