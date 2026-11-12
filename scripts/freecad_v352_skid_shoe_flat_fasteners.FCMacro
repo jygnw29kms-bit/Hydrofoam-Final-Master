@@ -1,0 +1,63 @@
+"""Hydrofoam v352: symmetric replaceable skid shoes, revised screw-seat geometry.
+
+Run in FreeCAD Python console from repository root. Millimetres.
+Standalone printable modules only; no claim of installed Final-Master fit.
+"""
+import FreeCAD as App
+import Part, Mesh, json
+from pathlib import Path
+OUT=Path("exports/v352_skid_shoes")
+OUT.mkdir(parents=True,exist_ok=True)
+length=120.0
+width=24.0
+thickness=4.5
+tip_length=25.0
+tip_rise=7.0
+# Both holes strictly behind the ramp transition at x=-35.
+hole_x=(-20.0,35.0)
+bore_d=3.4
+counterbore_d=6.4
+counterbore_depth=1.5
+edge_web=2.0
+assert min(hole_x)-counterbore_d/2 > -length/2+tip_length
+assert max(hole_x)+counterbore_d/2 < length/2
+assert width/2-counterbore_d/2>=edge_web
+assert thickness-counterbore_depth>=2.5
+doc=App.newDocument("Hydrofoam_v352_skid_modules_WIP")
+records=[]
+for side,y in (("L",-30.0),("R",30.0)):
+    x0=-length/2
+    x1=x0+tip_length
+    x2=length/2
+    p=[App.Vector(x0,y-width/2,tip_rise),App.Vector(x1,y-width/2,0),
+       App.Vector(x2,y-width/2,0),App.Vector(x2,y-width/2,thickness),
+       App.Vector(x1,y-width/2,thickness),
+       App.Vector(x0,y-width/2,tip_rise+thickness)]
+    solid=Part.Face(Part.makePolygon(p+[p[0]])).extrude(App.Vector(0,width,0))
+    for x in hole_x:
+        bore=Part.makeCylinder(bore_d/2,thickness+2,App.Vector(x,y,-1))
+        recess=Part.makeCylinder(counterbore_d/2,counterbore_depth,
+                                  App.Vector(x,y,thickness-counterbore_depth))
+        solid=solid.cut(bore).cut(recess)
+    solid=solid.removeSplitter()
+    if solid.isNull() or not solid.isValid() or not solid.isClosed() or len(solid.Solids)!=1:
+        raise RuntimeError(side+" invalid printable solid")
+    ob=doc.addObject("PartDesign::Feature","Skid_"+side)
+    ob.Shape=solid
+    ob.Label="v352 replaceable skid "+side+" WIP"
+    ob.addProperty("App::PropertyString","Acceptance","QA")
+    ob.Acceptance="NOT APPROVED: hull mating, wear and ground clearance untested"
+    Mesh.export([ob],str((OUT/("Skid_"+side+"_WIP.stl")).resolve()))
+    records.append({"side":side,"valid":solid.isValid(),"closed":solid.isClosed(),
+                    "solids":len(solid.Solids),"volume_mm3":round(solid.Volume,3)})
+doc.recompute()
+doc.saveAs(str((OUT/"Hydrofoam_v352_skids_WIP.FCStd").resolve()))
+(OUT/"qa_v352.json").write_text(json.dumps({
+    "status":"WIP_NOT_ACCEPTED","version":"v352",
+    "change":"move both counterbores entirely behind the upturned front ramp",
+    "hole_centers_x_mm":hole_x,"parts":records,
+    "requires":["hull attachment measurements","foil ground-clearance envelope",
+                "fastener pull-out testing","print coupon fit","wear testing",
+                "hard/grass/sand dynamic trials","water seal and flight verification"]
+},indent=2)+"\n",encoding="utf-8")
+print("v352 created; no land/water/air acceptance",OUT)
