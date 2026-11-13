@@ -75,8 +75,8 @@ def evaluate(d):
                      and required_servo_torque <= d["servo_torque_nmm"])
             rows.append(dict(rudder_deg=round(angle, 4), servo_deg=round(chosen[0], 4),
                              rod_residual_mm=round(chosen[1], 5),
-                             required_rod_force_n=round(required_rod_force_n, 4),
-                             required_servo_torque_nmm=round(required_servo_torque, 4),
+                             required_rod_force_n=round(required_rod_force_n, 4) if math.isfinite(required_rod_force_n) else None,
+                             required_servo_torque_nmm=round(required_servo_torque, 4) if math.isfinite(required_servo_torque) else None,
                              planar_load_gate=valid))
         else:
             rows.append(dict(rudder_deg=round(angle, 4), planar_load_gate=False,
