@@ -60,12 +60,12 @@ def run(config_path):
             sleeve=sleeve.cut(bore)
             # Bridge the knuckle to its own leaf; do not bridge the hinge bore.
             if i%2==0:
-                bridge=Part.makeBox(length,outer*.25,thickness,V(start,outer*.75,-thickness/2))
+                bridge=Part.makeBox(length,outer*.35+0.4,thickness,V(start,outer*.75,-thickness/2))
                 fixed=fixed.fuse(sleeve).fuse(bridge)
             else:
-                bridge=Part.makeBox(length,outer*.25,thickness,V(start,-outer,-thickness/2))
+                bridge=Part.makeBox(length,outer*.35+0.4,thickness,V(start,-outer-.4,-thickness/2))
                 moving=moving.fuse(sleeve).fuse(bridge)
-        fixed=fixed.removeSplitter()
+        # Bridges overlap both their knuckle and leaf by positive volume.\n        # Face-only contacts may create a compound instead of one printable solid.\n        fixed=fixed.removeSplitter()
         moving=moving.removeSplitter()
         pin=Part.makeCylinder(pin_d/2,width+2,V(-1,0,0),V(1,0,0))
         if not all(s.isValid() and len(s.Solids)==1 for s in (fixed,moving,pin)):
