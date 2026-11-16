@@ -60,10 +60,10 @@ def run(config_path):
             sleeve=sleeve.cut(bore)
             # Bridge the knuckle to its own leaf; do not bridge the hinge bore.
             if i%2==0:
-                bridge=Part.makeBox(length,outer,thickness,V(start,0,-thickness/2))
+                bridge=Part.makeBox(length,outer*.25,thickness,V(start,outer*.75,-thickness/2))
                 fixed=fixed.fuse(sleeve).fuse(bridge)
             else:
-                bridge=Part.makeBox(length,outer,thickness,V(start,-outer,-thickness/2))
+                bridge=Part.makeBox(length,outer*.25,thickness,V(start,-outer,-thickness/2))
                 moving=moving.fuse(sleeve).fuse(bridge)
         fixed=fixed.removeSplitter()
         moving=moving.removeSplitter()
