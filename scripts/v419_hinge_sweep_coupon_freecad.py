@@ -65,7 +65,9 @@ def run(config_path):
             else:
                 bridge=Part.makeBox(length,outer*.35+0.4,thickness,V(start,-outer-.4,-thickness/2))
                 moving=moving.fuse(sleeve).fuse(bridge)
-        # Bridges overlap both their knuckle and leaf by positive volume.\n        # Face-only contacts may create a compound instead of one printable solid.\n        fixed=fixed.removeSplitter()
+        # Bridges overlap both their knuckle and leaf by positive volume.
+        # Face-only contacts may create a compound instead of one printable solid.
+        fixed=fixed.removeSplitter()
         moving=moving.removeSplitter()
         pin=Part.makeCylinder(pin_d/2,width+2,V(-1,0,0),V(1,0,0))
         if not all(s.isValid() and len(s.Solids)==1 for s in (fixed,moving,pin)):
